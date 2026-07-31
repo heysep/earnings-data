@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-28",
+  "asOf": "2026-08-01",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -11,11 +11,11 @@
       "color": "#111111",
       "logo": "A",
       "next": {
-        "date": "2026-07-30",
+        "date": "2026-10-29",
         "session": "amc",
-        "confirmed": true,
-        "epsConsensus": 1.89396,
-        "revenueText": "$108.9B"
+        "confirmed": false,
+        "epsConsensus": 1.89243,
+        "revenueText": "$109.0B"
       },
       "history": [
         {
@@ -54,13 +54,19 @@
       "color": "#00A4EF",
       "logo": "M",
       "next": {
-        "date": "2026-07-29",
+        "date": "2026-10-28",
         "session": "amc",
-        "confirmed": true,
-        "epsConsensus": 4.23972,
-        "revenueText": "$87.7B"
+        "confirmed": false,
+        "epsConsensus": 4.68025,
+        "revenueText": "$90.5B"
       },
       "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 4.74,
+          "consensus": 4.23939
+        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -78,12 +84,6 @@
           "date": "2025-09-30",
           "actual": 4.13,
           "consensus": 3.66355
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 3.65,
-          "consensus": 3.37669
         }
       ]
     },
@@ -97,10 +97,10 @@
       "color": "#4285F4",
       "logo": "G",
       "next": {
-        "date": "2026-07-22",
+        "date": "2026-10-28",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 3.01527,
+        "epsConsensus": 2.99845,
         "revenueText": "$127.0B"
       },
       "history": [
@@ -140,13 +140,19 @@
       "color": "#0668E1",
       "logo": "M",
       "next": {
-        "date": "2026-07-29",
+        "date": "2026-10-28",
         "session": "amc",
-        "confirmed": true,
-        "epsConsensus": 7.21727,
-        "revenueText": "$60.3B"
+        "confirmed": false,
+        "epsConsensus": 6.77192,
+        "revenueText": "$63.3B"
       },
       "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 6.18,
+          "consensus": 7.22143
+        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -164,12 +170,6 @@
           "date": "2025-09-30",
           "actual": 1.05,
           "consensus": 6.70696
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 7.14,
-          "consensus": 5.90298
         }
       ]
     },
@@ -228,9 +228,9 @@
       "next": {
         "date": "2026-10-21",
         "session": "amc",
-        "confirmed": false,
-        "epsConsensus": 0.45688,
-        "revenueText": "$27.4B"
+        "confirmed": true,
+        "epsConsensus": 0.45577,
+        "revenueText": "$27.5B"
       },
       "history": [
         {
@@ -270,13 +270,19 @@
       "logo": "a",
       "logoText": "#111111",
       "next": {
-        "date": "2026-07-30",
+        "date": "2026-10-29",
         "session": "amc",
-        "confirmed": true,
-        "epsConsensus": 1.81651,
-        "revenueText": "$196.2B"
+        "confirmed": false,
+        "epsConsensus": 1.91412,
+        "revenueText": "$204.0B"
       },
       "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 5.75,
+          "consensus": 1.82985
+        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -294,12 +300,6 @@
           "date": "2025-09-30",
           "actual": 1.95,
           "consensus": 1.55757
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 1.68,
-          "consensus": 1.33192
         }
       ]
     },
@@ -315,7 +315,7 @@
       "next": {
         "date": "2026-10-20",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.82119,
         "revenueText": "$12.9B"
       },
@@ -358,9 +358,9 @@
       "next": {
         "date": "2026-10-15",
         "session": "bmo",
-        "confirmed": false,
-        "epsConsensus": 4.49778,
-        "revenueText": "$1446.8B"
+        "confirmed": true,
+        "epsConsensus": 4.44959,
+        "revenueText": "$1448.9B"
       },
       "history": [
         {
@@ -446,7 +446,7 @@
         "session": "amc",
         "confirmed": true,
         "epsConsensus": -0.288,
-        "revenueText": "$9.1B"
+        "revenueText": "$9.0B"
       },
       "history": [
         {
@@ -485,13 +485,19 @@
       "color": "#1428A0",
       "logo": "삼",
       "next": {
-        "date": "2026-07-29",
+        "date": "2026-10-28",
         "session": "bmo",
-        "confirmed": true,
-        "epsConsensus": 11032.471,
-        "revenueText": "171.2조원"
+        "confirmed": false,
+        "epsConsensus": 14322.952,
+        "revenueText": "212.5조원"
       },
       "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 10849,
+          "consensus": 11032.471
+        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -509,12 +515,6 @@
           "date": "2025-09-30",
           "actual": 1802,
           "consensus": 1436.0764
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 737,
-          "consensus": 764.8653
         }
       ]
     },
@@ -528,13 +528,19 @@
       "color": "#EC1C24",
       "logo": "S",
       "next": {
-        "date": "2026-07-28",
+        "date": "2026-10-27",
         "session": "bmo",
-        "confirmed": true,
-        "epsConsensus": 70975.38,
-        "revenueText": "84.1조원"
+        "confirmed": false,
+        "epsConsensus": 88725.56,
+        "revenueText": "102.9조원"
       },
       "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 131478,
+          "consensus": 70975.38
+        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -552,12 +558,6 @@
           "date": "2025-09-30",
           "actual": 17850,
           "consensus": 12586.406
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 9572,
-          "consensus": 9338.132
         }
       ]
     },
@@ -617,9 +617,9 @@
       "next": {
         "date": "2026-08-06",
         "session": "bmo",
-        "confirmed": false,
-        "epsConsensus": 385.2006,
-        "revenueText": "2.1조원"
+        "confirmed": true,
+        "epsConsensus": 381.82333,
+        "revenueText": "2.0조원"
       },
       "history": [
         {
@@ -658,11 +658,11 @@
       "color": "#002C5F",
       "logo": "현",
       "next": {
-        "date": "2026-07-23",
+        "date": "2026-10-29",
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 10401.057,
-        "revenueText": "49.1조원"
+        "revenueText": "49.2조원"
       },
       "history": [
         {
@@ -695,11 +695,11 @@
       "color": "#05141F",
       "logo": "기",
       "next": {
-        "date": "2026-07-31",
+        "date": "2026-10-23",
         "session": "bmo",
-        "confirmed": true,
-        "epsConsensus": 5440.047,
-        "revenueText": "31.5조원"
+        "confirmed": false,
+        "epsConsensus": 5537.441,
+        "revenueText": "31.6조원"
       },
       "history": [
         {
@@ -735,8 +735,8 @@
         "date": "2026-07-30",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 1785.6847,
-        "revenueText": "8.0조원"
+        "epsConsensus": 1052.6941,
+        "revenueText": "9.0조원"
       },
       "history": [
         {
@@ -772,8 +772,8 @@
         "date": "2026-08-06",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 1530.5114,
-        "revenueText": "1.4조원"
+        "epsConsensus": 1622.6848,
+        "revenueText": "1.5조원"
       },
       "history": [
         {
@@ -806,11 +806,11 @@
       "color": "#2AA8E0",
       "logo": "P",
       "next": {
-        "date": "2026-07-30",
+        "date": "2026-10-26",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 4885.914,
-        "revenueText": "18.2조원"
+        "epsConsensus": 5847.805,
+        "revenueText": "18.3조원"
       },
       "history": [
         {
@@ -830,12 +830,4627 @@
           "date": "2025-09-30",
           "actual": 5565,
           "consensus": 4984.9077
+        }
+      ]
+    },
+    {
+      "symbol": "AVGO",
+      "code": "AVGO",
+      "name": "브로드컴",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#1F5FDB",
+      "logo": "브",
+      "next": {
+        "date": "2026-09-03",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.23823,
+        "revenueText": "$29.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 2.44,
+          "consensus": 2.39835
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 2.05,
+          "consensus": 2.02326
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 1.95,
+          "consensus": 1.86817
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 1.69,
+          "consensus": 1.66338
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "code": "AMD",
+      "name": "AMD",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#D92B3C",
+      "logo": "A",
+      "next": {
+        "date": "2026-08-04",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.61045,
+        "revenueText": "$11.3B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.37,
+          "consensus": 1.29468
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.53,
+          "consensus": 1.31917
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.2,
+          "consensus": 1.171
         },
         {
           "q": "2025 2Q",
           "date": "2025-06-30",
-          "actual": 2114,
-          "consensus": 4948.55
+          "actual": 0.48,
+          "consensus": 0.48264
+        }
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "code": "INTC",
+      "name": "인텔",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#12A03C",
+      "logo": "인",
+      "next": {
+        "date": "2026-10-22",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.38941,
+        "revenueText": "$16.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.42,
+          "consensus": 0.21819
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.29,
+          "consensus": 0.01313
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.15,
+          "consensus": 0.08264
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.23,
+          "consensus": 0.00705
+        }
+      ]
+    },
+    {
+      "symbol": "QCOM",
+      "code": "QCOM",
+      "name": "퀄컴",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#E06E0A",
+      "logo": "퀄",
+      "next": {
+        "date": "2026-10-29",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 2.20153,
+        "revenueText": "$10.1B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 2.21,
+          "consensus": 2.22079
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2.65,
+          "consensus": 2.56433
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 3.5,
+          "consensus": 3.40235
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 3,
+          "consensus": 2.87578
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "code": "MU",
+      "name": "마이크론",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#6132CE",
+      "logo": "마",
+      "next": {
+        "date": "2026-09-23",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 31.32898,
+        "revenueText": "$50.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-05-31",
+          "actual": 25.11,
+          "consensus": 20.70941
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-02-28",
+          "actual": 12.2,
+          "consensus": 9.15866
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-11-30",
+          "actual": 4.78,
+          "consensus": 3.96409
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-08-31",
+          "actual": 3.03,
+          "consensus": 2.86023
+        }
+      ]
+    },
+    {
+      "symbol": "TXN",
+      "code": "TXN",
+      "name": "텍사스인스트루먼트",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#0B72B8",
+      "logo": "텍",
+      "next": {
+        "date": "2026-10-27",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 2.41539,
+        "revenueText": "$5.9B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 2.14,
+          "consensus": 1.93813
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.68,
+          "consensus": 1.36856
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.27,
+          "consensus": 1.30773
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.48,
+          "consensus": 1.4859
+        }
+      ]
+    },
+    {
+      "symbol": "ORCL",
+      "code": "ORCL",
+      "name": "오라클",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#00867C",
+      "logo": "오",
+      "next": {
+        "date": "2026-09-09",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 1.73873,
+        "revenueText": "$19.1B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-05-31",
+          "actual": 2.11,
+          "consensus": 1.96241
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-02-28",
+          "actual": 1.79,
+          "consensus": 1.69362
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-11-30",
+          "actual": 2.26,
+          "consensus": 1.6372
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-08-31",
+          "actual": 1.47,
+          "consensus": 1.47912
+        }
+      ]
+    },
+    {
+      "symbol": "CRM",
+      "code": "CRM",
+      "name": "세일즈포스",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#B0323F",
+      "logo": "세",
+      "next": {
+        "date": "2026-09-02",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.27034,
+        "revenueText": "$11.3B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 3.88,
+          "consensus": 3.12729
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 3.81,
+          "consensus": 3.05166
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 3.25,
+          "consensus": 2.8622
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 2.91,
+          "consensus": 2.77924
+        }
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "code": "ADBE",
+      "name": "어도비",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#2E3FC8",
+      "logo": "어",
+      "next": {
+        "date": "2026-09-10",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 6.07854,
+        "revenueText": "$6.7B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-05-31",
+          "actual": 5.96,
+          "consensus": 5.81474
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-02-28",
+          "actual": 6.06,
+          "consensus": 5.87314
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-11-30",
+          "actual": 5.5,
+          "consensus": 5.39763
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-08-31",
+          "actual": 5.31,
+          "consensus": 5.18163
+        }
+      ]
+    },
+    {
+      "symbol": "IBM",
+      "code": "IBM",
+      "name": "IBM",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#7A5C00",
+      "logo": "I",
+      "next": {
+        "date": "2026-10-21",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 2.88811,
+        "revenueText": "$16.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 2.93,
+          "consensus": 2.93306
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.91,
+          "consensus": 1.81123
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 4.52,
+          "consensus": 4.29238
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.65,
+          "consensus": 2.44662
+        }
+      ]
+    },
+    {
+      "symbol": "CSCO",
+      "code": "CSCO",
+      "name": "시스코",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#C2185B",
+      "logo": "시",
+      "next": {
+        "date": "2026-08-12",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.17034,
+        "revenueText": "$16.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 1.06,
+          "consensus": 1.03625
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 1.04,
+          "consensus": 1.02214
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 1,
+          "consensus": 0.98216
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 0.99,
+          "consensus": 0.97731
+        }
+      ]
+    },
+    {
+      "symbol": "PLTR",
+      "code": "PLTR",
+      "name": "팔란티어",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#00695C",
+      "logo": "팔",
+      "next": {
+        "date": "2026-08-03",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.34665,
+        "revenueText": "$1.8B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.33,
+          "consensus": 0.27946
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.25,
+          "consensus": 0.2302
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.21,
+          "consensus": 0.16738
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 0.16,
+          "consensus": 0.13845
+        }
+      ]
+    },
+    {
+      "symbol": "SNOW",
+      "code": "SNOW",
+      "name": "스노우플레이크",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#4527A0",
+      "logo": "스",
+      "next": {
+        "date": "2026-08-26",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 0.44658,
+        "revenueText": "$1.5B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 0.39,
+          "consensus": 0.31981
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 0.32,
+          "consensus": 0.27169
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 0.35,
+          "consensus": 0.31114
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 0.35,
+          "consensus": 0.26646
+        }
+      ]
+    },
+    {
+      "symbol": "UBER",
+      "code": "UBER",
+      "name": "우버",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#AD1457",
+      "logo": "우",
+      "next": {
+        "date": "2026-08-05",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.83473,
+        "revenueText": "$14.3B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.13,
+          "consensus": 0.71175
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.14,
+          "consensus": 0.775
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 3.11,
+          "consensus": 0.68627
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 0.63,
+          "consensus": 0.62348
+        }
+      ]
+    },
+    {
+      "symbol": "ABNB",
+      "code": "ABNB",
+      "name": "에어비앤비",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#283593",
+      "logo": "에",
+      "next": {
+        "date": "2026-08-06",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.24886,
+        "revenueText": "$3.6B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.26,
+          "consensus": 0.30278
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.56,
+          "consensus": 0.6639
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.21,
+          "consensus": 2.32057
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 1.03,
+          "consensus": 0.94141
+        }
+      ]
+    },
+    {
+      "symbol": "SHOP",
+      "code": "SHOP",
+      "name": "쇼피파이",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#00838F",
+      "logo": "쇼",
+      "next": {
+        "date": "2026-08-05",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.3998,
+        "revenueText": "$3.4B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.36,
+          "consensus": 0.33162
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.48,
+          "consensus": 0.50907
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.34,
+          "consensus": 0.33794
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 0.35,
+          "consensus": 0.28653
+        }
+      ]
+    },
+    {
+      "symbol": "PYPL",
+      "code": "PYPL",
+      "name": "페이팔",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#EF6C00",
+      "logo": "페",
+      "next": {
+        "date": "2026-10-27",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.31731,
+        "revenueText": "$8.7B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1.38,
+          "consensus": 1.2774
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.34,
+          "consensus": 1.26902
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.23,
+          "consensus": 1.2866
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.34,
+          "consensus": 1.20568
+        }
+      ]
+    },
+    {
+      "symbol": "COIN",
+      "code": "COIN",
+      "name": "코인베이스",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#5D4037",
+      "logo": "코",
+      "next": {
+        "date": "2026-10-29",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 0.44394,
+        "revenueText": "$1.2B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": -1.36,
+          "consensus": -0.2315
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": -1.49,
+          "consensus": 0.04436
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -2.49,
+          "consensus": 0.94
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.5,
+          "consensus": 1.13369
+        }
+      ]
+    },
+    {
+      "symbol": "HOOD",
+      "code": "HOOD",
+      "name": "로빈후드",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#455A64",
+      "logo": "로",
+      "next": {
+        "date": "2026-07-29",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.5034,
+        "revenueText": "$1.3B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.62,
+          "consensus": 0.43141
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.38,
+          "consensus": 0.38768
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.66,
+          "consensus": 0.63585
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.61,
+          "consensus": 0.5443
+        }
+      ]
+    },
+    {
+      "symbol": "JPM",
+      "code": "JPM",
+      "name": "JP모건",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#827717",
+      "logo": "J",
+      "next": {
+        "date": "2026-10-13",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 5.90243,
+        "revenueText": "$50.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 6.14,
+          "consensus": 5.79998
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 5.94,
+          "consensus": 5.51098
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 4.63,
+          "consensus": 4.81831
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 5.07,
+          "consensus": 4.87467
+        }
+      ]
+    },
+    {
+      "symbol": "BAC",
+      "code": "BAC",
+      "name": "뱅크오브아메리카",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#1F5FDB",
+      "logo": "뱅",
+      "next": {
+        "date": "2026-10-14",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.19089,
+        "revenueText": "$31.2B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1.21,
+          "consensus": 1.12309
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.11,
+          "consensus": 1.02044
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.98,
+          "consensus": 0.95866
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.06,
+          "consensus": 0.9461
+        }
+      ]
+    },
+    {
+      "symbol": "GS",
+      "code": "GS",
+      "name": "골드만삭스",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#D92B3C",
+      "logo": "골",
+      "next": {
+        "date": "2026-10-13",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 16.48786,
+        "revenueText": "$17.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 20.98,
+          "consensus": 14.54249
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 17.55,
+          "consensus": 16.39241
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 14.01,
+          "consensus": 11.65403
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 12.25,
+          "consensus": 11.08738
+        }
+      ]
+    },
+    {
+      "symbol": "MS",
+      "code": "MS",
+      "name": "모건스탠리",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#12A03C",
+      "logo": "모",
+      "next": {
+        "date": "2026-10-14",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.15576,
+        "revenueText": "$20.9B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 3.46,
+          "consensus": 2.93372
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3.43,
+          "consensus": 3.01764
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2.68,
+          "consensus": 2.44961
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.8,
+          "consensus": 2.11118
+        }
+      ]
+    },
+    {
+      "symbol": "C",
+      "code": "C",
+      "name": "씨티그룹",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#E06E0A",
+      "logo": "씨",
+      "next": {
+        "date": "2026-10-13",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 2.59,
+        "revenueText": "$23.7B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 3.13897,
+          "consensus": 2.7149
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3.0614,
+          "consensus": 2.59629
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.2433,
+          "consensus": 1.62375
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.263,
+          "consensus": 1.927
+        }
+      ]
+    },
+    {
+      "symbol": "WFC",
+      "code": "WFC",
+      "name": "웰스파고",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#6132CE",
+      "logo": "웰",
+      "next": {
+        "date": "2026-10-13",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.83039,
+        "revenueText": "$22.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 2,
+          "consensus": 1.71847
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.6,
+          "consensus": 1.58337
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.62,
+          "consensus": 1.66753
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.66,
+          "consensus": 1.54521
+        }
+      ]
+    },
+    {
+      "symbol": "BLK",
+      "code": "BLK",
+      "name": "블랙록",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#0B72B8",
+      "logo": "블",
+      "next": {
+        "date": "2026-10-14",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 14.27767,
+        "revenueText": "$7.6B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 13.91,
+          "consensus": 12.68929
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 12.53,
+          "consensus": 11.45866
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 13.16,
+          "consensus": 12.19178
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 11.55,
+          "consensus": 11.2927
+        }
+      ]
+    },
+    {
+      "symbol": "V",
+      "code": "V",
+      "name": "비자",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#00867C",
+      "logo": "비",
+      "next": {
+        "date": "2026-10-27",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 3.43499,
+        "revenueText": "$12.1B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 3.32,
+          "consensus": 3.23073
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3.31,
+          "consensus": 3.09955
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 3.17,
+          "consensus": 3.14227
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.98,
+          "consensus": 2.97176
+        }
+      ]
+    },
+    {
+      "symbol": "MA",
+      "code": "MA",
+      "name": "마스터카드",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#B0323F",
+      "logo": "마",
+      "next": {
+        "date": "2026-10-29",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 5.12684,
+        "revenueText": "$9.6B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 5.04,
+          "consensus": 4.77606
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 4.6,
+          "consensus": 4.41328
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 4.76,
+          "consensus": 4.24031
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4.38,
+          "consensus": 4.31425
+        }
+      ]
+    },
+    {
+      "symbol": "AXP",
+      "code": "AXP",
+      "name": "아메리칸익스프레스",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#2E3FC8",
+      "logo": "아",
+      "next": {
+        "date": "2026-10-23",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 4.59919,
+        "revenueText": "$20.1B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 4.53,
+          "consensus": 4.40307
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 4.28,
+          "consensus": 3.99336
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 3.53,
+          "consensus": 3.53362
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4.14,
+          "consensus": 3.99559
+        }
+      ]
+    },
+    {
+      "symbol": "BRK-B",
+      "code": "BRK-B",
+      "name": "버크셔해서웨이",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#7A5C00",
+      "logo": "버",
+      "next": {
+        "date": "2026-08-08",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 5.13264,
+        "revenueText": "$98.8B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 5.2596,
+          "consensus": 5.04888
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 4.7281,
+          "consensus": 5.16646
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 6.2508,
+          "consensus": 5.73466
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 5.173,
+          "consensus": 5.03658
+        }
+      ]
+    },
+    {
+      "symbol": "WMT",
+      "code": "WMT",
+      "name": "월마트",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#C2185B",
+      "logo": "월",
+      "next": {
+        "date": "2026-08-20",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.7425,
+        "revenueText": "$187.0B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 0.66,
+          "consensus": 0.65872
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 0.74,
+          "consensus": 0.727
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 0.62,
+          "consensus": 0.60128
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 0.68,
+          "consensus": 0.73887
+        }
+      ]
+    },
+    {
+      "symbol": "COST",
+      "code": "COST",
+      "name": "코스트코",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#00695C",
+      "logo": "코",
+      "next": {
+        "date": "2026-09-24",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 6.5581,
+        "revenueText": "$94.5B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-05-31",
+          "actual": 4.93,
+          "consensus": 4.92303
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-02-28",
+          "actual": 4.58,
+          "consensus": 4.54467
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-11-30",
+          "actual": 4.5,
+          "consensus": 4.27507
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-08-31",
+          "actual": 5.87,
+          "consensus": 5.80441
+        }
+      ]
+    },
+    {
+      "symbol": "TGT",
+      "code": "TGT",
+      "name": "타겟",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#4527A0",
+      "logo": "타",
+      "next": {
+        "date": "2026-08-19",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 2.26738,
+        "revenueText": "$26.0B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 1.71,
+          "consensus": 1.45765
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 2.44,
+          "consensus": 2.15979
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 1.78,
+          "consensus": 1.71013
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 2.05,
+          "consensus": 2.03342
+        }
+      ]
+    },
+    {
+      "symbol": "HD",
+      "code": "HD",
+      "name": "홈디포",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#AD1457",
+      "logo": "홈",
+      "next": {
+        "date": "2026-08-18",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 4.72761,
+        "revenueText": "$47.2B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 3.43,
+          "consensus": 3.40647
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 2.72,
+          "consensus": 2.5232
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 3.74,
+          "consensus": 3.83395
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 4.68,
+          "consensus": 4.69448
+        }
+      ]
+    },
+    {
+      "symbol": "MCD",
+      "code": "MCD",
+      "name": "맥도날드",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#283593",
+      "logo": "맥",
+      "next": {
+        "date": "2026-08-04",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.32242,
+        "revenueText": "$7.1B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2.83,
+          "consensus": 2.74459
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 3.12,
+          "consensus": 3.05223
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 3.22,
+          "consensus": 3.33195
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 3.19,
+          "consensus": 3.14621
+        }
+      ]
+    },
+    {
+      "symbol": "SBUX",
+      "code": "SBUX",
+      "name": "스타벅스",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#00838F",
+      "logo": "스",
+      "next": {
+        "date": "2026-10-28",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 0.69222,
+        "revenueText": "$9.2B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.85,
+          "consensus": 0.64988
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.5,
+          "consensus": 0.43664
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.56,
+          "consensus": 0.58692
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.52,
+          "consensus": 0.55621
+        }
+      ]
+    },
+    {
+      "symbol": "KO",
+      "code": "KO",
+      "name": "코카콜라",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#EF6C00",
+      "logo": "코",
+      "next": {
+        "date": "2026-10-20",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.87893,
+        "revenueText": "$12.9B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.97,
+          "consensus": 0.93225
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.86,
+          "consensus": 0.81227
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.58,
+          "consensus": 0.56479
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.82,
+          "consensus": 0.77857
+        }
+      ]
+    },
+    {
+      "symbol": "PEP",
+      "code": "PEP",
+      "name": "펩시코",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#5D4037",
+      "logo": "펩",
+      "next": {
+        "date": "2026-10-08",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 2.29973,
+        "revenueText": "$25.0B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 2.2,
+          "consensus": 2.2082
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.61,
+          "consensus": 1.55188
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2.26,
+          "consensus": 2.23709
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.29,
+          "consensus": 2.25996
+        }
+      ]
+    },
+    {
+      "symbol": "PG",
+      "code": "PG",
+      "name": "P&G",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#455A64",
+      "logo": "P",
+      "next": {
+        "date": "2026-10-22",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.88637,
+        "revenueText": "$22.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1.43,
+          "consensus": 1.40695
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.59,
+          "consensus": 1.55547
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.88,
+          "consensus": 1.85685
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.99,
+          "consensus": 1.89677
+        }
+      ]
+    },
+    {
+      "symbol": "JNJ",
+      "code": "JNJ",
+      "name": "존슨앤드존슨",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#827717",
+      "logo": "존",
+      "next": {
+        "date": "2026-10-13",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.00957,
+        "revenueText": "$25.3B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 2.9,
+          "consensus": 2.85484
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2.7,
+          "consensus": 2.67727
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2.46,
+          "consensus": 2.46271
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.8,
+          "consensus": 2.75894
+        }
+      ]
+    },
+    {
+      "symbol": "PFE",
+      "code": "PFE",
+      "name": "화이자",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#1F5FDB",
+      "logo": "화",
+      "next": {
+        "date": "2026-08-04",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.68221,
+        "revenueText": "$14.4B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.75,
+          "consensus": 0.72166
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.66,
+          "consensus": 0.56808
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.87,
+          "consensus": 0.63307
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 0.78,
+          "consensus": 0.5738
+        }
+      ]
+    },
+    {
+      "symbol": "MRK",
+      "code": "MRK",
+      "name": "머크",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#D92B3C",
+      "logo": "머",
+      "next": {
+        "date": "2026-08-04",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": -0.25761,
+        "revenueText": "$16.4B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": -1.28,
+          "consensus": -1.47384
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2.04,
+          "consensus": 2.01048
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.58,
+          "consensus": 2.34859
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 2.13,
+          "consensus": 2.02777
+        }
+      ]
+    },
+    {
+      "symbol": "LLY",
+      "code": "LLY",
+      "name": "일라이릴리",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#12A03C",
+      "logo": "일",
+      "next": {
+        "date": "2026-08-05",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 6.54902,
+        "revenueText": "$20.7B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 8.55,
+          "consensus": 6.79114
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 7.54,
+          "consensus": 6.90884
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 7.02,
+          "consensus": 5.89164
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 6.31,
+          "consensus": 5.58943
+        }
+      ]
+    },
+    {
+      "symbol": "ABBV",
+      "code": "ABBV",
+      "name": "애브비",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#E06E0A",
+      "logo": "애",
+      "next": {
+        "date": "2026-07-31",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.83926,
+        "revenueText": "$17.3B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 3.65,
+          "consensus": 3.61114
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2.65,
+          "consensus": 2.67067
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2.71,
+          "consensus": 2.65266
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.86,
+          "consensus": 1.78451
+        }
+      ]
+    },
+    {
+      "symbol": "UNH",
+      "code": "UNH",
+      "name": "유나이티드헬스",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#6132CE",
+      "logo": "유",
+      "next": {
+        "date": "2026-10-27",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 4.08244,
+        "revenueText": "$111.5B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 6.38,
+          "consensus": 4.9151
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 7.23,
+          "consensus": 6.60176
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2.11,
+          "consensus": 2.10607
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.92,
+          "consensus": 2.80806
+        }
+      ]
+    },
+    {
+      "symbol": "XOM",
+      "code": "XOM",
+      "name": "엑슨모빌",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#0B72B8",
+      "logo": "엑",
+      "next": {
+        "date": "2026-07-31",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.37173,
+        "revenueText": "$96.2B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 4.11,
+          "consensus": 3.62571
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.16,
+          "consensus": 1.00743
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.71,
+          "consensus": 1.69102
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.88,
+          "consensus": 1.82466
+        }
+      ]
+    },
+    {
+      "symbol": "CVX",
+      "code": "CVX",
+      "name": "셰브론",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#00867C",
+      "logo": "셰",
+      "next": {
+        "date": "2026-07-31",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 4.32337,
+        "revenueText": "$55.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 6.06,
+          "consensus": 5.6037
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.41,
+          "consensus": 0.96868
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.52,
+          "consensus": 1.44481
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.85,
+          "consensus": 1.70678
+        }
+      ]
+    },
+    {
+      "symbol": "BA",
+      "code": "BA",
+      "name": "보잉",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#B0323F",
+      "logo": "보",
+      "next": {
+        "date": "2026-10-28",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": -0.11823,
+        "revenueText": "$24.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": -0.76,
+          "consensus": -0.31472
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": -0.2,
+          "consensus": -0.67243
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 9.92,
+          "consensus": -0.40902
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": -7.47,
+          "consensus": -2.37563
+        }
+      ]
+    },
+    {
+      "symbol": "CAT",
+      "code": "CAT",
+      "name": "캐터필러",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#2E3FC8",
+      "logo": "캐",
+      "next": {
+        "date": "2026-08-04",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 6.19742,
+        "revenueText": "$19.2B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 5.54,
+          "consensus": 4.64388
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 5.16,
+          "consensus": 4.71207
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4.95,
+          "consensus": 4.52334
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 4.72,
+          "consensus": 4.90312
+        }
+      ]
+    },
+    {
+      "symbol": "GE",
+      "code": "GE",
+      "name": "GE에어로스페이스",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#7A5C00",
+      "logo": "G",
+      "next": {
+        "date": "2026-10-20",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.98645,
+        "revenueText": "$12.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 2.02,
+          "consensus": 1.85961
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.86,
+          "consensus": 1.59919
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.57,
+          "consensus": 1.42976
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.66,
+          "consensus": 1.46885
+        }
+      ]
+    },
+    {
+      "symbol": "LMT",
+      "code": "LMT",
+      "name": "록히드마틴",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#C2185B",
+      "logo": "록",
+      "next": {
+        "date": "2026-10-20",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 7.47407,
+        "revenueText": "$20.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 7.94,
+          "consensus": 7.19921
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 6.44,
+          "consensus": 6.69318
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 5.8,
+          "consensus": 5.74615
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 6.95,
+          "consensus": 6.35802
+        }
+      ]
+    },
+    {
+      "symbol": "DIS",
+      "code": "DIS",
+      "name": "디즈니",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#00695C",
+      "logo": "디",
+      "next": {
+        "date": "2026-08-05",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.8544,
+        "revenueText": "$25.4B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.57,
+          "consensus": 1.49547
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.63,
+          "consensus": 1.5758
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.11,
+          "consensus": 1.02382
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 1.61,
+          "consensus": 1.44649
+        }
+      ]
+    },
+    {
+      "symbol": "CMCSA",
+      "code": "CMCSA",
+      "name": "컴캐스트",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#4527A0",
+      "logo": "컴",
+      "next": {
+        "date": "2026-10-29",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 1.00086,
+        "revenueText": "$29.5B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1.04,
+          "consensus": 0.96637
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.79,
+          "consensus": 0.72949
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.84,
+          "consensus": 0.75837
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.12,
+          "consensus": 1.10111
+        }
+      ]
+    },
+    {
+      "symbol": "T",
+      "code": "T",
+      "name": "AT&T",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#AD1457",
+      "logo": "A",
+      "next": {
+        "date": "2026-10-21",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.60395,
+        "revenueText": "$31.7B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.65,
+          "consensus": 0.58827
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.57,
+          "consensus": 0.55113
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.52,
+          "consensus": 0.46603
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.54,
+          "consensus": 0.53759
+        }
+      ]
+    },
+    {
+      "symbol": "VZ",
+      "code": "VZ",
+      "name": "버라이즌",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#283593",
+      "logo": "버",
+      "next": {
+        "date": "2026-10-20",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 1.28592,
+        "revenueText": "$34.8B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1.3,
+          "consensus": 1.26575
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.28,
+          "consensus": 1.2097
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.09,
+          "consensus": 1.0554
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.21,
+          "consensus": 1.19174
+        }
+      ]
+    },
+    {
+      "symbol": "NKE",
+      "code": "NKE",
+      "name": "나이키",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#00838F",
+      "logo": "나",
+      "next": {
+        "date": "2026-09-29",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.45236,
+        "revenueText": "$11.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-05-31",
+          "actual": 0.72,
+          "consensus": 0.12718
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-02-28",
+          "actual": 0.35,
+          "consensus": 0.28165
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-11-30",
+          "actual": 0.53,
+          "consensus": 0.37351
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-08-31",
+          "actual": 0.49,
+          "consensus": 0.2656
+        }
+      ]
+    },
+    {
+      "symbol": "LULU",
+      "code": "LULU",
+      "name": "룰루레몬",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#EF6C00",
+      "logo": "룰",
+      "next": {
+        "date": "2026-09-03",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 1.7908,
+        "revenueText": "$2.5B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 1.69,
+          "consensus": 1.67293
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 5.01,
+          "consensus": 4.77901
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 2.59,
+          "consensus": 2.21177
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 3.1,
+          "consensus": 2.85092
+        }
+      ]
+    },
+    {
+      "symbol": "MRVL",
+      "code": "MRVL",
+      "name": "마벨테크놀로지",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#5D4037",
+      "logo": "마",
+      "next": {
+        "date": "2026-08-27",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.92727,
+        "revenueText": "$2.7B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 0.8,
+          "consensus": 0.79495
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 0.8,
+          "consensus": 0.79165
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 0.76,
+          "consensus": 0.73778
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 0.67,
+          "consensus": 0.67343
+        }
+      ]
+    },
+    {
+      "symbol": "ARM",
+      "code": "ARM",
+      "name": "Arm홀딩스",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#455A64",
+      "logo": "A",
+      "next": {
+        "date": "2026-07-29",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.4666,
+        "revenueText": "$1.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.45,
+          "consensus": 0.4038
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.6,
+          "consensus": 0.5793
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.43,
+          "consensus": 0.40919
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.39,
+          "consensus": 0.33134
+        }
+      ]
+    },
+    {
+      "symbol": "SMCI",
+      "code": "SMCI",
+      "name": "슈퍼마이크로",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#827717",
+      "logo": "슈",
+      "next": {
+        "date": "2026-08-11",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.95748,
+        "revenueText": "$11.6B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.84,
+          "consensus": 0.62451
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.69,
+          "consensus": 0.48789
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.35,
+          "consensus": 0.38923
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 0.41,
+          "consensus": 0.4389
+        }
+      ]
+    },
+    {
+      "symbol": "DELL",
+      "code": "DELL",
+      "name": "델테크놀로지스",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#1F5FDB",
+      "logo": "델",
+      "next": {
+        "date": "2026-09-03",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 4.90022,
+        "revenueText": "$44.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 4.86,
+          "consensus": 2.96358
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 3.89,
+          "consensus": 3.51279
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 2.59,
+          "consensus": 2.47719
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 2.32,
+          "consensus": 2.29157
+        }
+      ]
+    },
+    {
+      "symbol": "INTU",
+      "code": "INTU",
+      "name": "인튜이트",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#D92B3C",
+      "logo": "인",
+      "next": {
+        "date": "2026-08-25",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.58858,
+        "revenueText": "$4.3B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 12.8,
+          "consensus": 12.56873
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 4.15,
+          "consensus": 3.6826
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 3.34,
+          "consensus": 3.09288
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 2.75,
+          "consensus": 2.65949
+        }
+      ]
+    },
+    {
+      "symbol": "NOW",
+      "code": "NOW",
+      "name": "서비스나우",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#12A03C",
+      "logo": "서",
+      "next": {
+        "date": "2026-10-28",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 1.02553,
+        "revenueText": "$4.1B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.9,
+          "consensus": 0.85672
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.97,
+          "consensus": 0.96619
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.92,
+          "consensus": 0.88508
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.964,
+          "consensus": 0.85308
+        }
+      ]
+    },
+    {
+      "symbol": "PANW",
+      "code": "PANW",
+      "name": "팔로알토네트웍스",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#E06E0A",
+      "logo": "팔",
+      "next": {
+        "date": "2026-08-18",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.97763,
+        "revenueText": "$3.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 0.85,
+          "consensus": 0.7972
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 1.03,
+          "consensus": 0.93684
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 0.93,
+          "consensus": 0.89116
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 0.95,
+          "consensus": 0.88528
+        }
+      ]
+    },
+    {
+      "symbol": "CRWD",
+      "code": "CRWD",
+      "name": "크라우드스트라이크",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#6132CE",
+      "logo": "크",
+      "next": {
+        "date": "2026-09-01",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.29195,
+        "revenueText": "$1.4B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 0.275,
+          "consensus": 0.26686
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 0.28,
+          "consensus": 0.2757
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 0.24,
+          "consensus": 0.23533
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 0.2325,
+          "consensus": 0.2075
+        }
+      ]
+    },
+    {
+      "symbol": "NET",
+      "code": "NET",
+      "name": "클라우드플레어",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#0B72B8",
+      "logo": "클",
+      "next": {
+        "date": "2026-08-06",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.26976,
+        "revenueText": "$666M"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.25,
+          "consensus": 0.23357
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.28,
+          "consensus": 0.27129
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.27,
+          "consensus": 0.23406
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 0.21,
+          "consensus": 0.18181
+        }
+      ]
+    },
+    {
+      "symbol": "DDOG",
+      "code": "DDOG",
+      "name": "데이터독",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#00867C",
+      "logo": "데",
+      "next": {
+        "date": "2026-08-06",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 0.58332,
+        "revenueText": "$1.1B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.6,
+          "consensus": 0.50738
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.59,
+          "consensus": 0.55486
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.55,
+          "consensus": 0.45709
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 0.46,
+          "consensus": 0.40766
+        }
+      ]
+    },
+    {
+      "symbol": "MDB",
+      "code": "MDB",
+      "name": "몽고DB",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#B0323F",
+      "logo": "몽",
+      "next": {
+        "date": "2026-08-26",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 1.61073,
+        "revenueText": "$734M"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-04-30",
+          "actual": 1.32,
+          "consensus": 1.18348
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-01-31",
+          "actual": 1.65,
+          "consensus": 1.47219
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-10-31",
+          "actual": 1.32,
+          "consensus": 0.79084
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-07-31",
+          "actual": 1,
+          "consensus": 0.6562
+        }
+      ]
+    },
+    {
+      "symbol": "SOFI",
+      "code": "SOFI",
+      "name": "소파이",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#2E3FC8",
+      "logo": "소",
+      "next": {
+        "date": "2026-10-27",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 0.16818,
+        "revenueText": "$1.3B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.12,
+          "consensus": 0.10907
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.115,
+          "consensus": 0.12
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.1217,
+          "consensus": 0.112
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.1014,
+          "consensus": 0.08243
+        }
+      ]
+    },
+    {
+      "symbol": "RIVN",
+      "code": "RIVN",
+      "name": "리비안",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#7A5C00",
+      "logo": "리",
+      "next": {
+        "date": "2026-07-30",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": -0.77637,
+        "revenueText": "$1.6B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": -0.33,
+          "consensus": -0.71619
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -0.66,
+          "consensus": -0.79186
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": -0.96,
+          "consensus": -0.86375
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": -0.97,
+          "consensus": -0.77784
+        }
+      ]
+    },
+    {
+      "symbol": "F",
+      "code": "F",
+      "name": "포드",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#C2185B",
+      "logo": "포",
+      "next": {
+        "date": "2026-10-22",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 0.4172,
+        "revenueText": "$46.3B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 0.42,
+          "consensus": 0.34634
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.66,
+          "consensus": 0.18506
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 0.13,
+          "consensus": 0.19364
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 0.45,
+          "consensus": 0.35883
+        }
+      ]
+    },
+    {
+      "symbol": "GM",
+      "code": "GM",
+      "name": "GM",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#00695C",
+      "logo": "G",
+      "next": {
+        "date": "2026-10-20",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 3.5433,
+        "revenueText": "$48.7B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 3.57,
+          "consensus": 3.18751
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3.7,
+          "consensus": 2.63928
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2.51,
+          "consensus": 2.26844
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2.8,
+          "consensus": 2.32278
+        }
+      ]
+    },
+    {
+      "symbol": "DAL",
+      "code": "DAL",
+      "name": "델타항공",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#4527A0",
+      "logo": "델",
+      "next": {
+        "date": "2026-10-08",
+        "session": "amc",
+        "confirmed": false,
+        "epsConsensus": 2.22842,
+        "revenueText": "$19.0B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1.56,
+          "consensus": 1.4922
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 0.64,
+          "consensus": 0.57477
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.55,
+          "consensus": 1.54588
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1.71,
+          "consensus": 1.52854
+        }
+      ]
+    },
+    {
+      "symbol": "BKNG",
+      "code": "BKNG",
+      "name": "부킹홀딩스",
+      "market": "US",
+      "exchange": "나스닥",
+      "currency": "USD",
+      "color": "#AD1457",
+      "logo": "부",
+      "next": {
+        "date": "2026-08-04",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 2.44311,
+        "revenueText": "$7.2B"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1.14,
+          "consensus": 1.07882
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1.952,
+          "consensus": 1.9468
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 3.98,
+          "consensus": 3.8367
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 2.216,
+          "consensus": 2.01582
+        }
+      ]
+    },
+    {
+      "symbol": "SPGI",
+      "code": "SPGI",
+      "name": "S&P글로벌",
+      "market": "US",
+      "exchange": "뉴욕",
+      "currency": "USD",
+      "color": "#283593",
+      "logo": "S",
+      "next": {
+        "date": "2026-10-29",
+        "session": "amc",
+        "confirmed": true,
+        "epsConsensus": 4.424,
+        "revenueText": "$3.6B"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 4.87,
+          "consensus": 5.01771
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 4.97,
+          "consensus": 4.81705
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 4.3,
+          "consensus": 4.33611
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4.73,
+          "consensus": 4.40892
+        }
+      ]
+    },
+    {
+      "symbol": "207940.KS",
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#00838F",
+      "logo": "삼",
+      "next": {
+        "date": "2026-10-27",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 9717.997,
+        "revenueText": "1.3조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 10148,
+          "consensus": 9544.892
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 8723,
+          "consensus": 11382.974
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 8071,
+          "consensus": 10335.522
+        }
+      ]
+    },
+    {
+      "symbol": "051910.KS",
+      "code": "051910",
+      "name": "LG화학",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#EF6C00",
+      "logo": "L",
+      "next": {
+        "date": "2026-07-31",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 101.55855,
+        "revenueText": "14.0조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": -4448,
+          "consensus": -1630.23
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -17826,
+          "consensus": 9517.895
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1740,
+          "consensus": -83.09
+        }
+      ]
+    },
+    {
+      "symbol": "006400.KS",
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#5D4037",
+      "logo": "삼",
+      "next": {
+        "date": "2026-10-28",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 1908.7034,
+        "revenueText": "3.9조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": -358,
+          "consensus": -1907.5085
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -4292,
+          "consensus": -1073.4272
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 608,
+          "consensus": -1845.3301
+        }
+      ]
+    },
+    {
+      "symbol": "105560.KS",
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#455A64",
+      "logo": "K",
+      "next": {
+        "date": "2026-10-29",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 5288.886,
+        "revenueText": "4.9조원"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 5464,
+          "consensus": 5070.47
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 5119,
+          "consensus": 5014.948
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2034,
+          "consensus": 1484.0842
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4453,
+          "consensus": 4378.603
+        }
+      ]
+    },
+    {
+      "symbol": "055550.KS",
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#827717",
+      "logo": "신",
+      "next": {
+        "date": "2026-10-27",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 3342.473,
+        "revenueText": "4.4조원"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 3763,
+          "consensus": 3405.6587
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3312,
+          "consensus": 3283.4707
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 983,
+          "consensus": 1272.1907
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2851,
+          "consensus": 2731.5015
+        }
+      ]
+    },
+    {
+      "symbol": "086790.KS",
+      "code": "086790",
+      "name": "하나금융지주",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#1F5FDB",
+      "logo": "하",
+      "next": {
+        "date": "2026-10-27",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 4487.8027,
+        "revenueText": "3.2조원"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 4293,
+          "consensus": 4512.0635
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 4322,
+          "consensus": 4221.228
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1982,
+          "consensus": 1986.3353
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4000,
+          "consensus": 3875.5908
+        }
+      ]
+    },
+    {
+      "symbol": "316140.KS",
+      "code": "316140",
+      "name": "우리금융지주",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#D92B3C",
+      "logo": "우",
+      "next": {
+        "date": "2026-10-30",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 1377.2032,
+        "revenueText": "3.0조원"
+      },
+      "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1097,
+          "consensus": 1227.0066
+        },
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3337,
+          "consensus": 1158.33
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 425,
+          "consensus": 549.0343
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1651,
+          "consensus": 1246.9926
+        }
+      ]
+    },
+    {
+      "symbol": "032830.KS",
+      "code": "032830",
+      "name": "삼성생명",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#12A03C",
+      "logo": "삼",
+      "next": {
+        "date": "2026-08-12",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 4048.5708,
+        "revenueText": "2.3조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 6702,
+          "consensus": 3742.735
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1034,
+          "consensus": 1516.6
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4026,
+          "consensus": 3800.5837
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 4226,
+          "consensus": 3952.9194
+        }
+      ]
+    },
+    {
+      "symbol": "000810.KS",
+      "code": "000810",
+      "name": "삼성화재",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#E06E0A",
+      "logo": "삼",
+      "next": {
+        "date": "2026-08-12",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 16813.94,
+        "revenueText": "4.1조원"
+      },
+      "history": [
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 5356,
+          "consensus": 7755.15
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 11981,
+          "consensus": 13746.116
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 9368,
+          "consensus": 15047.237
+        }
+      ]
+    },
+    {
+      "symbol": "015760.KS",
+      "code": "015760",
+      "name": "한국전력",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#0B72B8",
+      "logo": "한",
+      "next": {
+        "date": "2026-08-12",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 1599.3379,
+        "revenueText": "22.2조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3883,
+          "consensus": 3743.2869
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2063,
+          "consensus": 2272.3494
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 5850,
+          "consensus": 4639.8667
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 1771,
+          "consensus": 685.09186
+        }
+      ]
+    },
+    {
+      "symbol": "017670.KS",
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#00867C",
+      "logo": "S",
+      "next": {
+        "date": "2026-08-05",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 1597.0464,
+        "revenueText": "4.4조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1488,
+          "consensus": 1265.815
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 507,
+          "consensus": 304.4755
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": -1920,
+          "consensus": -1207.8839
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 398,
+          "consensus": 979.3185
+        }
+      ]
+    },
+    {
+      "symbol": "030200.KS",
+      "code": "030200",
+      "name": "KT",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#B0323F",
+      "logo": "K",
+      "next": {
+        "date": "2026-08-10",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 1544.0593,
+        "revenueText": "6.9조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1458,
+          "consensus": 1391.455
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 475,
+          "consensus": 520.3661
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1620,
+          "consensus": 1503.2388
+        }
+      ]
+    },
+    {
+      "symbol": "032640.KS",
+      "code": "032640",
+      "name": "LG유플러스",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#2E3FC8",
+      "logo": "L",
+      "next": {
+        "date": "2026-08-06",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 473.01273,
+        "revenueText": "3.9조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 417,
+          "consensus": 402.345
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 209,
+          "consensus": 291.38455
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 116,
+          "consensus": 160.0808
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 510,
+          "consensus": 398.85828
+        }
+      ]
+    },
+    {
+      "symbol": "034730.KS",
+      "code": "034730",
+      "name": "SK",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#7A5C00",
+      "logo": "S",
+      "next": {
+        "date": "2026-08-13",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": null,
+        "revenueText": "37.0조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 61307,
+          "consensus": 11019
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -40814,
+          "consensus": 8516
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 17249,
+          "consensus": 6885.782
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 9927,
+          "consensus": 1730.423
+        }
+      ]
+    },
+    {
+      "symbol": "003550.KS",
+      "code": "003550",
+      "name": "LG",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#C2185B",
+      "logo": "L",
+      "next": {
+        "date": "2026-08-13",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 2049.997,
+        "revenueText": "2.0조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2203,
+          "consensus": 2973
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -2353,
+          "consensus": 3231.873
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2044,
+          "consensus": 2581.367
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 1327,
+          "consensus": 3092.112
+        }
+      ]
+    },
+    {
+      "symbol": "012330.KS",
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#00695C",
+      "logo": "현",
+      "next": {
+        "date": "2026-10-30",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 12520.357,
+        "revenueText": "16.3조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 9885,
+          "consensus": 11274.964
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 8585,
+          "consensus": 13023.512
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 10421,
+          "consensus": 11192.266
+        }
+      ]
+    },
+    {
+      "symbol": "009540.KS",
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#4527A0",
+      "logo": "H",
+      "next": {
+        "date": "2026-07-29",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 11451.272,
+        "revenueText": "8.4조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 11939,
+          "consensus": 10619.156
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 9662,
+          "consensus": 14029.533
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 8956,
+          "consensus": 8989.026
+        }
+      ]
+    },
+    {
+      "symbol": "042660.KS",
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#AD1457",
+      "logo": "한",
+      "next": {
+        "date": "2026-10-26",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 1444.3763,
+        "revenueText": "3.5조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1367,
+          "consensus": 1054.6083
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1675,
+          "consensus": 1201.4213
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 737,
+          "consensus": 679.61847
+        }
+      ]
+    },
+    {
+      "symbol": "012450.KS",
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#283593",
+      "logo": "한",
+      "next": {
+        "date": "2026-07-31",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 14098.63,
+        "revenueText": "7.5조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 4999,
+          "consensus": 7760.1504
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 12521,
+          "consensus": 14779.757
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 9390,
+          "consensus": 9463.368
+        }
+      ]
+    },
+    {
+      "symbol": "064350.KS",
+      "code": "064350",
+      "name": "현대로템",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#00838F",
+      "logo": "현",
+      "next": {
+        "date": "2026-10-23",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 2169.9956,
+        "revenueText": "1.8조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1845,
+          "consensus": 1725.871
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2039,
+          "consensus": 2303.5796
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1819,
+          "consensus": 2084.51
+        }
+      ]
+    },
+    {
+      "symbol": "011200.KS",
+      "code": "011200",
+      "name": "HMM",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#EF6C00",
+      "logo": "H",
+      "next": {
+        "date": "2026-08-12",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": null,
+        "revenueText": "3.2조원"
+      },
+      "history": []
+    },
+    {
+      "symbol": "090430.KS",
+      "code": "090430",
+      "name": "아모레퍼시픽",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#455A64",
+      "logo": "아",
+      "next": {
+        "date": "2026-10-29",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 1487.2805,
+        "revenueText": "1.1조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1573,
+          "consensus": 1726.023
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 336,
+          "consensus": 1028.8837
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 958,
+          "consensus": 1058.458
+        }
+      ]
+    },
+    {
+      "symbol": "097950.KS",
+      "code": "097950",
+      "name": "CJ제일제당",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#827717",
+      "logo": "C",
+      "next": {
+        "date": "2026-08-11",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 6639.46,
+        "revenueText": "6.9조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 4163.608,
+          "consensus": 3400.14
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -51215,
+          "consensus": 10192.91
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 4563,
+          "consensus": 7879.07
+        }
+      ]
+    },
+    {
+      "symbol": "033780.KS",
+      "code": "033780",
+      "name": "KT&G",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#D92B3C",
+      "logo": "K",
+      "next": {
+        "date": "2026-08-06",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 2580.36,
+        "revenueText": "1.7조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3666,
+          "consensus": 2779.72
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2661,
+          "consensus": 3964.4448
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 3869,
+          "consensus": 2933.1956
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 1328,
+          "consensus": 2688.9575
+        }
+      ]
+    },
+    {
+      "symbol": "036570.KS",
+      "code": "036570",
+      "name": "엔씨소프트",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#12A03C",
+      "logo": "엔",
+      "next": {
+        "date": "2026-08-11",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 5659.466,
+        "revenueText": "6,867억원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 7672,
+          "consensus": 3860.1333
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -122,
+          "consensus": 2335.1133
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 17878,
+          "consensus": 1118.9172
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": -1826,
+          "consensus": 1370.7333
+        }
+      ]
+    },
+    {
+      "symbol": "251270.KS",
+      "code": "251270",
+      "name": "넷마블",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#E06E0A",
+      "logo": "넷",
+      "next": {
+        "date": "2026-08-06",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 1085.7488,
+        "revenueText": "7,351억원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2559,
+          "consensus": 760.7471
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -672,
+          "consensus": 497.215
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 457,
+          "consensus": 754.81726
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 1880,
+          "consensus": 608.6156
+        }
+      ]
+    },
+    {
+      "symbol": "259960.KS",
+      "code": "259960",
+      "name": "크래프톤",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#6132CE",
+      "logo": "크",
+      "next": {
+        "date": "2026-07-29",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 5948.6934,
+        "revenueText": "1.2조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 11603,
+          "consensus": 6448.058
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -387,
+          "consensus": 2759.8113
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 8238,
+          "consensus": 6836.1265
+        }
+      ]
+    },
+    {
+      "symbol": "377300.KS",
+      "code": "377300",
+      "name": "카카오페이",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#00867C",
+      "logo": "카",
+      "next": {
+        "date": "2026-08-04",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 271.75034,
+        "revenueText": "3,033억원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 210,
+          "consensus": 231.51933
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 30,
+          "consensus": 177.47804
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 112,
+          "consensus": 153.93648
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 94,
+          "consensus": 115.74946
+        }
+      ]
+    },
+    {
+      "symbol": "018260.KS",
+      "code": "018260",
+      "name": "삼성에스디에스",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#2E3FC8",
+      "logo": "삼",
+      "next": {
+        "date": "2026-07-30",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 2595.902,
+        "revenueText": "3.6조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2222.677,
+          "consensus": 2642.5356
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2356,
+          "consensus": 2617.3333
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2523,
+          "consensus": 2682.315
+        }
+      ]
+    },
+    {
+      "symbol": "009150.KS",
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#C2185B",
+      "logo": "삼",
+      "next": {
+        "date": "2026-10-29",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 6203.301,
+        "revenueText": "3.8조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 3296,
+          "consensus": 2879.346
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 2958,
+          "consensus": 2466.202
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2910,
+          "consensus": 2577.3494
+        }
+      ]
+    },
+    {
+      "symbol": "066570.KS",
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#00695C",
+      "logo": "L",
+      "next": {
+        "date": "2026-10-30",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 3637.8887,
+        "revenueText": "24.6조원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 4532,
+          "consensus": 3761.791
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -4601,
+          "consensus": -471.50473
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 2138,
+          "consensus": 1250.5641
+        }
+      ]
+    },
+    {
+      "symbol": "042700.KS",
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KR",
+      "exchange": "코스피",
+      "currency": "KRW",
+      "color": "#AD1457",
+      "logo": "한",
+      "next": {
+        "date": "2026-08-06",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 1054.8765,
+        "revenueText": "2,385억원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 200,
+          "consensus": 920.4221
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 303,
+          "consensus": 464.41263
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 690,
+          "consensus": 772.13086
+        }
+      ]
+    },
+    {
+      "symbol": "247540.KQ",
+      "code": "247540",
+      "name": "에코프로비엠",
+      "market": "KR",
+      "exchange": "코스닥",
+      "currency": "KRW",
+      "color": "#283593",
+      "logo": "에",
+      "next": {
+        "date": "2026-07-31",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": 28.18673,
+        "revenueText": "6,958억원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 40,
+          "consensus": -26.13038
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 194,
+          "consensus": -159.6132
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 235,
+          "consensus": 147.98634
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 117,
+          "consensus": -123.70524
+        }
+      ]
+    },
+    {
+      "symbol": "263750.KQ",
+      "code": "263750",
+      "name": "펄어비스",
+      "market": "KR",
+      "exchange": "코스닥",
+      "currency": "KRW",
+      "color": "#5D4037",
+      "logo": "펄",
+      "next": {
+        "date": "2026-08-10",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 1880.08,
+        "revenueText": "2,470억원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 2571,
+          "consensus": 3316.5
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": -248,
+          "consensus": -29.73
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 472,
+          "consensus": -48.52
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": -370,
+          "consensus": -32
+        }
+      ]
+    },
+    {
+      "symbol": "293490.KQ",
+      "code": "293490",
+      "name": "카카오게임즈",
+      "market": "KR",
+      "exchange": "코스닥",
+      "currency": "KRW",
+      "color": "#455A64",
+      "logo": "카",
+      "next": {
+        "date": "2026-08-05",
+        "session": "bmo",
+        "confirmed": true,
+        "epsConsensus": null,
+        "revenueText": "791억원"
+      },
+      "history": []
+    },
+    {
+      "symbol": "041510.KQ",
+      "code": "041510",
+      "name": "에스엠",
+      "market": "KR",
+      "exchange": "코스닥",
+      "currency": "KRW",
+      "color": "#827717",
+      "logo": "에",
+      "next": {
+        "date": "2026-08-05",
+        "session": "bmo",
+        "confirmed": false,
+        "epsConsensus": 3801.835,
+        "revenueText": "3,296억원"
+      },
+      "history": [
+        {
+          "q": "2026 1Q",
+          "date": "2026-03-31",
+          "actual": 1419,
+          "consensus": 1434.775
+        },
+        {
+          "q": "2025 4Q",
+          "date": "2025-12-31",
+          "actual": 1308,
+          "consensus": 153.78136
+        },
+        {
+          "q": "2025 3Q",
+          "date": "2025-09-30",
+          "actual": 1737,
+          "consensus": 1368.066
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 1279,
+          "consensus": 1316.195
         }
       ]
     }
