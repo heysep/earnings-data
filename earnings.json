@@ -2866,7 +2866,7 @@
       "next": {
         "date": "2026-10-28",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": -0.13389,
         "revenueText": "$24.8B"
       },
@@ -2952,7 +2952,7 @@
       "next": {
         "date": "2026-10-20",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 1.98645,
         "revenueText": "$12.8B"
       },
@@ -5424,7 +5424,7 @@
         "date": "2026-08-05",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 3971.585,
+        "epsConsensus": 3801.835,
         "revenueText": "3,296억원"
       },
       "history": [
