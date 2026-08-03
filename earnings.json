@@ -2866,7 +2866,7 @@
       "next": {
         "date": "2026-10-28",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": -0.13389,
         "revenueText": "$24.8B"
       },
@@ -2952,7 +2952,7 @@
       "next": {
         "date": "2026-10-20",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 1.98645,
         "revenueText": "$12.8B"
       },
@@ -5317,9 +5317,9 @@
       "color": "#283593",
       "logo": "에",
       "next": {
-        "date": "2026-07-31",
+        "date": "2026-10-30",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": -133.33759,
         "revenueText": "6,680억원"
       },
