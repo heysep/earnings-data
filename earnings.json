@@ -1617,7 +1617,7 @@
       "color": "#455A64",
       "logo": "로",
       "next": {
-        "date": "2026-07-29",
+        "date": "2026-11-04",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 0.50094,
@@ -2866,7 +2866,7 @@
       "next": {
         "date": "2026-10-28",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": -0.14895,
         "revenueText": "$24.9B"
       },
@@ -2910,16 +2910,10 @@
         "date": "2026-08-04",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 6.47883,
-        "revenueText": "$19.6B"
+        "epsConsensus": 6.19742,
+        "revenueText": "$19.2B"
       },
       "history": [
-        {
-          "q": "2026 2Q",
-          "date": "2026-06-30",
-          "actual": 8.17,
-          "consensus": 6.19742
-        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -2937,6 +2931,12 @@
           "date": "2025-09-30",
           "actual": 4.95,
           "consensus": 4.52334
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 4.72,
+          "consensus": 4.90312
         }
       ]
     },
@@ -2952,7 +2952,7 @@
       "next": {
         "date": "2026-10-20",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 1.98645,
         "revenueText": "$12.8B"
       },
@@ -3337,7 +3337,7 @@
       "color": "#455A64",
       "logo": "A",
       "next": {
-        "date": "2026-07-29",
+        "date": "2026-11-04",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 0.47016,
@@ -3724,7 +3724,7 @@
       "color": "#B0323F",
       "logo": "몽",
       "next": {
-        "date": "2026-08-26",
+        "date": "2026-09-01",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 1.61073,
