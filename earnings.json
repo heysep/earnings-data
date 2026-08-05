@@ -889,10 +889,16 @@
         "date": "2026-08-04",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.6107,
-        "revenueText": "$11.3B"
+        "epsConsensus": 1.85947,
+        "revenueText": "$12.5B"
       },
       "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 1.66,
+          "consensus": 1.6107
+        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -910,12 +916,6 @@
           "date": "2025-09-30",
           "actual": 1.2,
           "consensus": 1.171
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 0.48,
-          "consensus": 0.48264
         }
       ]
     },
@@ -975,8 +975,8 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 2.18882,
-        "revenueText": "$10.2B"
+        "epsConsensus": 2.17734,
+        "revenueText": "$10.1B"
       },
       "history": [
         {
@@ -1878,7 +1878,7 @@
         "date": "2026-10-13",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.83539,
+        "epsConsensus": 1.83958,
         "revenueText": "$22.4B"
       },
       "history": [
@@ -1964,7 +1964,7 @@
         "date": "2026-10-27",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 3.4352,
+        "epsConsensus": 3.43778,
         "revenueText": "$12.1B"
       },
       "history": [
@@ -2695,7 +2695,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 3.87087,
+        "epsConsensus": 3.87304,
         "revenueText": "$17.3B"
       },
       "history": [
@@ -2910,10 +2910,16 @@
         "date": "2026-08-04",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 6.19742,
-        "revenueText": "$19.2B"
+        "epsConsensus": 6.74348,
+        "revenueText": "$20.2B"
       },
       "history": [
+        {
+          "q": "2026 2Q",
+          "date": "2026-06-30",
+          "actual": 8.17,
+          "consensus": 6.19742
+        },
         {
           "q": "2026 1Q",
           "date": "2026-03-31",
@@ -2931,12 +2937,6 @@
           "date": "2025-09-30",
           "actual": 4.95,
           "consensus": 4.52334
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 4.72,
-          "consensus": 4.90312
         }
       ]
     },
