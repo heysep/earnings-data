@@ -531,8 +531,8 @@
         "date": "2026-10-27",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 87763.49,
-        "revenueText": "101.9조원"
+        "epsConsensus": 88423.97,
+        "revenueText": "102.4조원"
       },
       "history": [
         {
@@ -2307,7 +2307,7 @@
       "next": {
         "date": "2026-11-05",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 3.32131,
         "revenueText": "$7.1B"
       },
@@ -2866,7 +2866,7 @@
       "next": {
         "date": "2026-10-28",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": -0.14895,
         "revenueText": "$24.9B"
       },
@@ -2952,7 +2952,7 @@
       "next": {
         "date": "2026-10-20",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 1.98645,
         "revenueText": "$12.8B"
       },
@@ -4477,8 +4477,8 @@
         "date": "2026-08-05",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 1510.6517,
-        "revenueText": "4.5조원"
+        "epsConsensus": 1597.0464,
+        "revenueText": "4.4조원"
       },
       "history": [
         {
@@ -4498,6 +4498,12 @@
           "date": "2025-09-30",
           "actual": -1920,
           "consensus": -1207.8839
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": 398,
+          "consensus": 979.3185
         }
       ]
     },
@@ -4636,7 +4642,7 @@
       "next": {
         "date": "2026-08-13",
         "session": "bmo",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 2049.997,
         "revenueText": "2.0조원"
       },
@@ -5120,9 +5126,9 @@
       "color": "#00867C",
       "logo": "카",
       "next": {
-        "date": "2026-08-04",
+        "date": "2026-11-03",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 271.75034,
         "revenueText": "3,033억원"
       },
