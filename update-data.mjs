@@ -8,6 +8,12 @@
  *  - earningsHistory → 최근 4개 분기 실제 vs 컨센 (서프라이즈)
  * 를 받아 병합한다.
  *
+ * 추가로 chart API(range=2y&interval=1d) 한 번으로 일별 종가를 받아
+ * history[]의 각 분기 date 기준 D-5 ~ D+20 구간만 잘라 prices[]로 붙인다.
+ * 전 기간을 넣으면 앱이 매번 받는 파일이 감당이 안 되므로 필요한 구간만 남긴다.
+ * (주의: history[].date는 Yahoo의 분기 말일이지 발표일이 아니다.
+ *  chart의 events=earn이 과거 발표일을 주지 않아 분기 말일을 기준점으로 쓴다.)
+ *
  * 실패 종목은 기존 JSON 값을 유지한다(데이터가 절대 비지 않음).
  * GitHub Actions에서 매일 실행 → 변경 시 커밋 (.github/workflows/update-data.yml)
  *
@@ -210,6 +216,55 @@ async function quoteSummary(session, symbol) {
   return null;
 }
 
+/**
+ * 일별 종가 2년치를 종목당 한 번만 받는다.
+ * 분기마다 따로 부르면 종목당 4번 → 600요청이라 레이트 리밋에 걸린다.
+ */
+async function chartDaily(session, symbol) {
+  for (const host of ['query2', 'query1']) {
+    const url = `https://${host}.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
+      symbol
+    )}?range=2y&interval=1d&crumb=${encodeURIComponent(session.crumb)}`;
+    try {
+      const res = await fetch(url, { headers: { ...UA, cookie: session.cookie } });
+      if (!res.ok) continue;
+      const json = await res.json();
+      const r = json?.chart?.result?.[0];
+      if (!r?.timestamp) continue;
+      const closes = r.indicators?.quote?.[0]?.close ?? [];
+      const series = [];
+      for (let i = 0; i < r.timestamp.length; i++) {
+        const c = closes[i];
+        if (typeof c !== 'number' || !Number.isFinite(c)) continue;
+        series.push({ d: new Date(r.timestamp[i] * 1000).toISOString().slice(0, 10), c });
+      }
+      if (series.length > 0) return series;
+    } catch {
+      // 다음 호스트 재시도
+    }
+  }
+  return null;
+}
+
+const shiftDate = (ymd, days) =>
+  new Date(Date.parse(ymd + 'T00:00:00Z') + days * 86400000).toISOString().slice(0, 10);
+
+/**
+ * 분기 기준일 앞뒤 구간만 잘라낸다. 발표 이후 흐름이 목적이라 뒤(D+20)를 앞(D-5)보다 길게 잡는다.
+ * 원화는 정수, 달러는 소수 둘째 자리 — 소수점 자리수가 그대로 파일 크기다.
+ */
+function sliceWindow(series, date, currency) {
+  const from = shiftDate(date, -5);
+  const to = shiftDate(date, 20);
+  const out = [];
+  for (const p of series) {
+    if (p.d < from) continue;
+    if (p.d > to) break;
+    out.push({ d: p.d, c: currency === 'KRW' ? Math.round(p.c) : Math.round(p.c * 100) / 100 });
+  }
+  return out.length > 0 ? out : null;
+}
+
 const raw = (v) => (typeof v?.raw === 'number' ? v.raw : typeof v === 'number' ? v : null);
 
 function quarterLabel(fmt) {
@@ -228,7 +283,7 @@ function revenueText(currency, v) {
   return `${Math.round(v / 1e8).toLocaleString('ko-KR')}억원`;
 }
 
-function parseStock(meta, prev, qs) {
+function parseStock(meta, prev, qs, series) {
   const cal = qs?.calendarEvents?.earnings;
   const dates = (cal?.earningsDate ?? []).map((d) => d?.fmt).filter(Boolean);
   const nextDate = dates[0] ?? prev?.next?.date ?? null;
@@ -251,6 +306,15 @@ function parseStock(meta, prev, qs) {
     .filter(Boolean)
     .sort((a, b) => b.date.localeCompare(a.date));
 
+  // 주가 구간을 붙인다. 차트 수집이 실패하면 기존 prices를 분기(q)로 맞춰 물려받는다
+  // — 새로 못 받았다고 이미 갖고 있던 이력까지 버릴 이유는 없다.
+  const prevPrices = new Map((prev?.history ?? []).map((h) => [h.q, h.prices]).filter(([, p]) => p));
+  for (const h of hist) {
+    const p = series ? sliceWindow(series, h.date, meta.currency) : null;
+    const carried = p ?? prevPrices.get(h.q) ?? null;
+    if (carried) h.prices = carried;
+  }
+
   if (!nextDate) return null;
   return {
     ...meta,
@@ -270,6 +334,34 @@ function todayKST() {
   return d.toISOString().slice(0, 10);
 }
 
+/**
+ * prices 배열만 한 줄로 압축해서 직렬화한다.
+ * JSON.stringify(…, 2)는 {d, c} 하나를 네 줄로 펼쳐서 한 점이 55바이트를 넘는다.
+ * 앱이 매번 통째로 받는 파일이라 그대로 두면 크기가 두 배가 된다.
+ * 문서 전체를 정규식으로 훑으면 기존 필드까지 위험하니, 배열을 자리표시자로 바꿔 넣고
+ * 예쁘게 찍은 뒤 그 자리표시자만 압축 문자열로 되돌린다.
+ */
+function serialize(out) {
+  const compact = [];
+  const marked = {
+    ...out,
+    stocks: out.stocks.map((s) => ({
+      ...s,
+      history: (s.history ?? []).map((h) => {
+        if (!Array.isArray(h.prices)) return h;
+        const marker = `@@P${compact.length}@@`;
+        compact.push(JSON.stringify(h.prices));
+        return { ...h, prices: marker };
+      }),
+    })),
+  };
+  let text = JSON.stringify(marked, null, 2);
+  compact.forEach((json, i) => {
+    text = text.replace(`"@@P${i}@@"`, json);
+  });
+  return text + '\n';
+}
+
 async function main() {
   let prev = { asOf: '', stocks: [] };
   try {
@@ -287,18 +379,20 @@ async function main() {
   for (const meta of UNIVERSE) {
     const old = prevBySym.get(meta.symbol);
     const qs = await quoteSummary(session, meta.symbol);
-    const parsed = qs ? parseStock(meta, old, qs) : null;
+    const series = qs ? await chartDaily(session, meta.symbol) : null;
+    const parsed = qs ? parseStock(meta, old, qs, series) : null;
     if (parsed) {
       stocks.push(parsed);
       updated++;
-      console.log(`OK   ${meta.symbol.padEnd(10)} next=${parsed.next.date} eps=${parsed.next.epsConsensus ?? '-'} hist=${parsed.history.length}`);
+      const px = parsed.history.filter((h) => h.prices).length;
+      console.log(`OK   ${meta.symbol.padEnd(10)} next=${parsed.next.date} eps=${parsed.next.epsConsensus ?? '-'} hist=${parsed.history.length} px=${px}`);
     } else if (old) {
       stocks.push(old);
       console.log(`KEEP ${meta.symbol} (fetch 실패 — 기존 값 유지)`);
     } else {
       console.log(`SKIP ${meta.symbol} (데이터 없음)`);
     }
-    await sleep(350);
+    await sleep(450);
   }
 
   if (updated === 0) {
@@ -308,7 +402,7 @@ async function main() {
   }
 
   const out = { asOf: todayKST(), stocks };
-  writeFileSync(DATA_PATH, JSON.stringify(out, null, 2) + '\n', 'utf8');
+  writeFileSync(DATA_PATH, serialize(out), 'utf8');
   console.log(`\nearnings.json 갱신 완료 — ${updated}/${UNIVERSE.length}종목, asOf=${out.asOf}`);
 }
 
