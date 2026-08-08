@@ -9,8 +9,13 @@
  * 를 받아 병합한다.
  *
  * 추가로 chart API(range=2y&interval=1d) 한 번으로 일별 종가를 받아
- * 각 분기의 "발표일 추정치" 기준 D-5 ~ D+20 구간만 잘라 prices[]로 붙인다.
+ * 각 분기의 "발표일 추정치" 기준 D-5 ~ D+20 구간만 잘라 별도 파일 prices.json에 쓴다.
  * 전 기간을 넣으면 앱이 매번 받는 파일이 감당이 안 되므로 필요한 구간만 남긴다.
+ *
+ * 파일을 나눈 이유: 주가를 earnings.json에 같이 넣으면 126KB → 370KB(2.9배)가 된다.
+ * 용량 대부분이 주가인데 그걸 읽는 건 종목 상세뿐이라,
+ * 첫 진입에 받는 earnings.json은 목록용으로 두고 주가는 상세를 열 때만 받는다.
+ * prices.json은 내용이 실제로 바뀐 경우에만 asOf를 갱신한다.
  *
  * 기준점 주의: history[].date는 Yahoo의 분기 말일이지 발표일이 아니다.
  * chart의 events=earn이 과거 발표일을 안 줘서, 분기 말일에 종목별 발표 지연일수를
@@ -28,6 +33,7 @@ import { dirname, join } from 'node:path';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = join(ROOT, 'earnings.json');
+const PRICES_PATH = join(ROOT, 'prices.json');
 
 /** 유니버스 — 표시용 메타는 여기서 관리(수동), 수치는 Yahoo에서 자동. */
 const UNIVERSE = [
@@ -300,7 +306,7 @@ function revenueText(currency, v) {
   return `${Math.round(v / 1e8).toLocaleString('ko-KR')}억원`;
 }
 
-function parseStock(meta, prev, qs, series) {
+function parseStock(meta, prev, qs, series, oldPrices) {
   const cal = qs?.calendarEvents?.earnings;
   const dates = (cal?.earningsDate ?? []).map((d) => d?.fmt).filter(Boolean);
   const nextDate = dates[0] ?? prev?.next?.date ?? null;
@@ -323,18 +329,19 @@ function parseStock(meta, prev, qs, series) {
     .filter(Boolean)
     .sort((a, b) => b.date.localeCompare(a.date));
 
-  // 주가 구간을 붙인다. 차트 수집이 실패하면 기존 prices를 분기(q)로 맞춰 물려받는다
+  // 주가 구간을 만든다. 차트 수집이 실패하면 prices.json의 기존 값을 분기(q)로 맞춰 물려받는다
   // — 새로 못 받았다고 이미 갖고 있던 이력까지 버릴 이유는 없다.
-  const prevPrices = new Map((prev?.history ?? []).map((h) => [h.q, h.prices]).filter(([, p]) => p));
+  // 결과는 earnings.json이 아니라 prices.json으로 나가므로 hist에 붙이지 않고 따로 모은다.
   const lag = announceLag(nextDate, hist[0]?.date);
+  const prices = {};
   for (const h of hist) {
     const p = series ? sliceWindow(series, h.date, meta.currency, lag) : null;
-    const carried = p ?? prevPrices.get(h.q) ?? null;
-    if (carried) h.prices = carried;
+    const carried = p ?? oldPrices?.[h.q] ?? null;
+    if (carried) prices[h.q] = carried;
   }
 
   if (!nextDate) return null;
-  return {
+  return { prices, stock: {
     ...meta,
     next: {
       date: nextDate,
@@ -344,7 +351,7 @@ function parseStock(meta, prev, qs, series) {
       revenueText: revText,
     },
     history: hist.length > 0 ? hist : (prev?.history ?? []),
-  };
+  } };
 }
 
 function todayKST() {
@@ -359,20 +366,17 @@ function todayKST() {
  * 문서 전체를 정규식으로 훑으면 기존 필드까지 위험하니, 배열을 자리표시자로 바꿔 넣고
  * 예쁘게 찍은 뒤 그 자리표시자만 압축 문자열로 되돌린다.
  */
-function serialize(out) {
+function serializePrices(out) {
   const compact = [];
-  const marked = {
-    ...out,
-    stocks: out.stocks.map((s) => ({
-      ...s,
-      history: (s.history ?? []).map((h) => {
-        if (!Array.isArray(h.prices)) return h;
-        const marker = `@@P${compact.length}@@`;
-        compact.push(JSON.stringify(h.prices));
-        return { ...h, prices: marker };
-      }),
-    })),
-  };
+  const marked = { ...out, stocks: {} };
+  for (const [symbol, byQuarter] of Object.entries(out.stocks)) {
+    const m = {};
+    for (const [q, arr] of Object.entries(byQuarter)) {
+      m[q] = `@@P${compact.length}@@`;
+      compact.push(JSON.stringify(arr));
+    }
+    marked.stocks[symbol] = m;
+  }
   let text = JSON.stringify(marked, null, 2);
   compact.forEach((json, i) => {
     text = text.replace(`"@@P${i}@@"`, json);
@@ -389,23 +393,36 @@ async function main() {
   }
   const prevBySym = new Map(prev.stocks.map((s) => [s.symbol, s]));
 
+  let prevPrices = { stocks: {} };
+  try {
+    prevPrices = JSON.parse(readFileSync(PRICES_PATH, 'utf8'));
+  } catch {
+    // 최초 실행
+  }
+  const prevPricesBySym = prevPrices.stocks ?? {};
+
   const session = await getSession();
   console.log('yahoo session OK');
 
   const stocks = [];
+  const pricesOut = {};
   let updated = 0;
   for (const meta of UNIVERSE) {
     const old = prevBySym.get(meta.symbol);
+    const oldPrices = prevPricesBySym[meta.symbol];
     const qs = await quoteSummary(session, meta.symbol);
     const series = qs ? await chartDaily(session, meta.symbol) : null;
-    const parsed = qs ? parseStock(meta, old, qs, series) : null;
+    const parsed = qs ? parseStock(meta, old, qs, series, oldPrices) : null;
     if (parsed) {
-      stocks.push(parsed);
+      stocks.push(parsed.stock);
+      const px = Object.keys(parsed.prices).length;
+      if (px > 0) pricesOut[meta.symbol] = parsed.prices;
       updated++;
-      const px = parsed.history.filter((h) => h.prices).length;
-      console.log(`OK   ${meta.symbol.padEnd(10)} next=${parsed.next.date} eps=${parsed.next.epsConsensus ?? '-'} hist=${parsed.history.length} px=${px}`);
+      console.log(`OK   ${meta.symbol.padEnd(10)} next=${parsed.stock.next.date} eps=${parsed.stock.next.epsConsensus ?? '-'} hist=${parsed.stock.history.length} px=${px}`);
     } else if (old) {
       stocks.push(old);
+      // 주가도 새로 못 받았다고 버리지 않는다 — 그대로 물려준다.
+      if (oldPrices) pricesOut[meta.symbol] = oldPrices;
       console.log(`KEEP ${meta.symbol} (fetch 실패 — 기존 값 유지)`);
     } else {
       console.log(`SKIP ${meta.symbol} (데이터 없음)`);
@@ -420,8 +437,19 @@ async function main() {
   }
 
   const out = { asOf: todayKST(), stocks };
-  writeFileSync(DATA_PATH, serialize(out), 'utf8');
+  writeFileSync(DATA_PATH, JSON.stringify(out, null, 2) + '\n', 'utf8');
   console.log(`\nearnings.json 갱신 완료 — ${updated}/${UNIVERSE.length}종목, asOf=${out.asOf}`);
+
+  // prices.json은 발표 구간이 지나면 며칠씩 그대로다.
+  // asOf를 매번 덮으면 내용이 같아도 매시간 커밋되므로 실제로 달라졌을 때만 갱신한다.
+  const pricesChanged = JSON.stringify(pricesOut) !== JSON.stringify(prevPricesBySym);
+  const pricesFile = {
+    asOf: pricesChanged ? todayKST() : (prevPrices.asOf ?? todayKST()),
+    stocks: pricesOut,
+  };
+  if (!pricesChanged) console.log('prices 변화 없음 — asOf 유지');
+  writeFileSync(PRICES_PATH, serializePrices(pricesFile), 'utf8');
+  console.log(`prices.json 갱신 완료 — ${Object.keys(pricesOut).length}종목, asOf=${pricesFile.asOf}`);
 }
 
 main().catch((e) => {
