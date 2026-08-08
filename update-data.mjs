@@ -436,7 +436,13 @@ async function main() {
     return;
   }
 
-  const out = { asOf: todayKST(), stocks };
+  // asOf를 매번 오늘로 덮으면 워크플로의 `git diff --quiet` 가드가 항상 뚫려
+  // 내용이 같아도 매시 커밋이 쌓인다. 그러면 커밋 로그만 보고 "데이터가 신선하다"고 오판하게 된다
+  // — 배당에서 실제로 겪은 함정이다(asOf만 매일 바뀌고 안의 날짜는 7개월 전 값 그대로였다).
+  // 그래서 stocks가 실제로 달라졌을 때만 갱신한다(배열 순서는 UNIVERSE 순서, 키 순서도 고정이라 문자열 비교로 충분).
+  const changed = JSON.stringify(stocks) !== JSON.stringify(prev.stocks ?? []);
+  const out = { asOf: changed ? todayKST() : (prev.asOf ?? todayKST()), stocks };
+  if (!changed) console.log('stocks 변화 없음 — asOf 유지');
   writeFileSync(DATA_PATH, JSON.stringify(out, null, 2) + '\n', 'utf8');
   console.log(`\nearnings.json 갱신 완료 — ${updated}/${UNIVERSE.length}종목, asOf=${out.asOf}`);
 
