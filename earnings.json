@@ -571,9 +571,9 @@
       "color": "#03C75A",
       "logo": "N",
       "next": {
-        "date": "2026-08-07",
+        "date": "2026-11-06",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 3660.7476,
         "revenueText": "3.6조원"
       },
