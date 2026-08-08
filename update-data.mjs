@@ -9,10 +9,13 @@
  * 를 받아 병합한다.
  *
  * 추가로 chart API(range=2y&interval=1d) 한 번으로 일별 종가를 받아
- * history[]의 각 분기 date 기준 D-5 ~ D+20 구간만 잘라 prices[]로 붙인다.
+ * 각 분기의 "발표일 추정치" 기준 D-5 ~ D+20 구간만 잘라 prices[]로 붙인다.
  * 전 기간을 넣으면 앱이 매번 받는 파일이 감당이 안 되므로 필요한 구간만 남긴다.
- * (주의: history[].date는 Yahoo의 분기 말일이지 발표일이 아니다.
- *  chart의 events=earn이 과거 발표일을 주지 않아 분기 말일을 기준점으로 쓴다.)
+ *
+ * 기준점 주의: history[].date는 Yahoo의 분기 말일이지 발표일이 아니다.
+ * chart의 events=earn이 과거 발표일을 안 줘서, 분기 말일에 종목별 발표 지연일수를
+ * 더해 발표일을 추정한다(실측 미국 중앙값 28일 — 말일 기준 D+20이면 발표 전에 구간이 끝나서
+ * 정작 보여줘야 할 발표 이후 흐름이 통째로 빠진다).
  *
  * 실패 종목은 기존 JSON 값을 유지한다(데이터가 절대 비지 않음).
  * GitHub Actions에서 매일 실행 → 변경 시 커밋 (.github/workflows/update-data.yml)
@@ -249,13 +252,27 @@ async function chartDaily(session, symbol) {
 const shiftDate = (ymd, days) =>
   new Date(Date.parse(ymd + 'T00:00:00Z') + days * 86400000).toISOString().slice(0, 10);
 
+const dayDiff = (a, b) => Math.round((Date.parse(a + 'T00:00:00Z') - Date.parse(b + 'T00:00:00Z')) / 86400000);
+
 /**
- * 분기 기준일 앞뒤 구간만 잘라낸다. 발표 이후 흐름이 목적이라 뒤(D+20)를 앞(D-5)보다 길게 잡는다.
+ * 종목별 발표 지연일수 — "다음 발표일"이 그 분기 말일보다 며칠 뒤인지로 역산한다.
+ * 다음 분기 말일 = 최근 분기 말일 + 91일로 잡는다.
+ * 값이 상식 밖(10일 미만·60일 초과, 국내 종목에서 자주 나온다)이면 30일로 둔다.
+ */
+function announceLag(nextDate, lastQuarterDate) {
+  if (!nextDate || !lastQuarterDate) return 30;
+  const lag = dayDiff(nextDate, shiftDate(lastQuarterDate, 91));
+  return lag >= 10 && lag <= 60 ? lag : 30;
+}
+
+/**
+ * 발표일 추정치 앞뒤 구간만 잘라낸다. 발표 이후 흐름이 목적이라 뒤(D+20)를 앞(D-5)보다 길게 잡는다.
  * 원화는 정수, 달러는 소수 둘째 자리 — 소수점 자리수가 그대로 파일 크기다.
  */
-function sliceWindow(series, date, currency) {
-  const from = shiftDate(date, -5);
-  const to = shiftDate(date, 20);
+function sliceWindow(series, date, currency, lag) {
+  const anchor = shiftDate(date, lag);
+  const from = shiftDate(anchor, -5);
+  const to = shiftDate(anchor, 20);
   const out = [];
   for (const p of series) {
     if (p.d < from) continue;
@@ -309,8 +326,9 @@ function parseStock(meta, prev, qs, series) {
   // 주가 구간을 붙인다. 차트 수집이 실패하면 기존 prices를 분기(q)로 맞춰 물려받는다
   // — 새로 못 받았다고 이미 갖고 있던 이력까지 버릴 이유는 없다.
   const prevPrices = new Map((prev?.history ?? []).map((h) => [h.q, h.prices]).filter(([, p]) => p));
+  const lag = announceLag(nextDate, hist[0]?.date);
   for (const h of hist) {
-    const p = series ? sliceWindow(series, h.date, meta.currency) : null;
+    const p = series ? sliceWindow(series, h.date, meta.currency, lag) : null;
     const carried = p ?? prevPrices.get(h.q) ?? null;
     if (carried) h.prices = carried;
   }
