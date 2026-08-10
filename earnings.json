@@ -2078,9 +2078,9 @@
       "color": "#7A5C00",
       "logo": "버",
       "next": {
-        "date": "2026-08-08",
+        "date": "2026-11-07",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 5.34972,
         "revenueText": "$0M"
       },
@@ -2295,7 +2295,7 @@
       "next": {
         "date": "2026-11-05",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 3.39735,
         "revenueText": "$7.3B"
       },
