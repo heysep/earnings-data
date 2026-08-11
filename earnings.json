@@ -532,7 +532,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 86482.67,
-        "revenueText": "101.7조원"
+        "revenueText": "101.8조원"
       },
       "history": [
         {
@@ -2854,7 +2854,7 @@
       "next": {
         "date": "2026-10-28",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": -0.1425,
         "revenueText": "$25.0B"
       },
