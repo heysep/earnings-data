@@ -649,7 +649,7 @@
         "date": "2026-10-29",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 10401.057,
+        "epsConsensus": 10097.703,
         "revenueText": "49.2조원"
       },
       "history": [
@@ -686,7 +686,7 @@
         "date": "2026-10-23",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 5537.441,
+        "epsConsensus": 5730.5776,
         "revenueText": "31.6조원"
       },
       "history": [
@@ -2854,7 +2854,7 @@
       "next": {
         "date": "2026-10-28",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": -0.1425,
         "revenueText": "$25.0B"
       },
@@ -4096,7 +4096,7 @@
         "date": "2026-10-29",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 23.65218,
+        "epsConsensus": -515.91394,
         "revenueText": "15.1조원"
       },
       "history": [
@@ -4902,16 +4902,10 @@
         "date": "2026-08-11",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 7628.18,
-        "revenueText": "7.2조원"
+        "epsConsensus": 7924.82,
+        "revenueText": "6.9조원"
       },
       "history": [
-        {
-          "q": "2026 1Q",
-          "date": "2026-03-31",
-          "actual": 4163.608,
-          "consensus": 3400.14
-        },
         {
           "q": "2025 4Q",
           "date": "2025-12-31",
@@ -4976,16 +4970,10 @@
         "date": "2026-08-11",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 4905.965,
-        "revenueText": "6,682억원"
+        "epsConsensus": 5659.466,
+        "revenueText": "6,865억원"
       },
       "history": [
-        {
-          "q": "2026 1Q",
-          "date": "2026-03-31",
-          "actual": 7672,
-          "consensus": 3860.1333
-        },
         {
           "q": "2025 4Q",
           "date": "2025-12-31",
@@ -4997,6 +4985,12 @@
           "date": "2025-09-30",
           "actual": 17878,
           "consensus": 1118.9172
+        },
+        {
+          "q": "2025 2Q",
+          "date": "2025-06-30",
+          "actual": -1826,
+          "consensus": 1370.7333
         }
       ]
     },
