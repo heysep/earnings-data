@@ -3024,7 +3024,7 @@
       "color": "#00695C",
       "logo": "디",
       "next": {
-        "date": "2026-08-05",
+        "date": "2026-11-12",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 1.66638,
@@ -5297,8 +5297,8 @@
         "date": "2026-11-09",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 1880.08,
-        "revenueText": "2,379억원"
+        "epsConsensus": 1442.76,
+        "revenueText": "1,492억원"
       },
       "history": [
         {
@@ -5318,12 +5318,6 @@
           "date": "2025-09-30",
           "actual": 472,
           "consensus": -48.52
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": -370,
-          "consensus": -32
         }
       ]
     },
