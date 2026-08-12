@@ -4422,8 +4422,8 @@
         "date": "2026-08-12",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 1599.3379,
-        "revenueText": "22.2조원"
+        "epsConsensus": 3651.2185,
+        "revenueText": "28.0조원"
       },
       "history": [
         {
@@ -4443,12 +4443,6 @@
           "date": "2025-09-30",
           "actual": 5850,
           "consensus": 4639.8667
-        },
-        {
-          "q": "2025 2Q",
-          "date": "2025-06-30",
-          "actual": 1771,
-          "consensus": 685.09186
         }
       ]
     },
