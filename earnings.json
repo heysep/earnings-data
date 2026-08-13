@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -57,7 +57,7 @@
         "date": "2026-10-28",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 4.71331,
+        "epsConsensus": 4.71385,
         "revenueText": "$90.7B"
       },
       "history": [
@@ -920,7 +920,7 @@
         "date": "2026-10-22",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.39071,
+        "epsConsensus": 0.38943,
         "revenueText": "$16.4B"
       },
       "history": [
@@ -1092,7 +1092,7 @@
         "date": "2026-09-10",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.73873,
+        "epsConsensus": 1.73946,
         "revenueText": "$19.1B"
       },
       "history": [
@@ -2812,8 +2812,8 @@
         "date": "2026-10-30",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 4.49524,
-        "revenueText": "$57.8B"
+        "epsConsensus": 4.51856,
+        "revenueText": "$56.7B"
       },
       "history": [
         {
@@ -3844,7 +3844,7 @@
         "date": "2026-10-22",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 0.4197,
+        "epsConsensus": 0.41595,
         "revenueText": "$46.1B"
       },
       "history": [
@@ -4832,7 +4832,7 @@
       "color": "#EF6C00",
       "logo": "H",
       "next": {
-        "date": "2026-08-13",
+        "date": "2026-08-18",
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": null,
