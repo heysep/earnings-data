@@ -1267,9 +1267,9 @@
       "color": "#C2185B",
       "logo": "시",
       "next": {
-        "date": "2026-11-11",
+        "date": "2026-11-12",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 1.16883,
         "revenueText": "$16.8B"
       },
