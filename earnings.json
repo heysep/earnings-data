@@ -1159,7 +1159,7 @@
         "date": "2026-08-26",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 3.27012,
+        "epsConsensus": 3.27071,
         "revenueText": "$11.3B"
       },
       "history": [
@@ -1288,7 +1288,7 @@
         "date": "2026-11-12",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.3241,
+        "epsConsensus": 1.32489,
         "revenueText": "$18.0B"
       },
       "history": [
@@ -2019,7 +2019,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 5.14855,
+        "epsConsensus": 5.14922,
         "revenueText": "$9.7B"
       },
       "history": [
@@ -2148,8 +2148,8 @@
         "date": "2026-08-20",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.74188,
-        "revenueText": "$186.9B"
+        "epsConsensus": 0.74126,
+        "revenueText": "$186.8B"
       },
       "history": [
         {
@@ -2234,7 +2234,7 @@
         "date": "2026-08-19",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.32775,
+        "epsConsensus": 2.33743,
         "revenueText": "$26.1B"
       },
       "history": [
@@ -2277,7 +2277,7 @@
         "date": "2026-08-18",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.7326,
+        "epsConsensus": 4.73227,
         "revenueText": "$47.2B"
       },
       "history": [
@@ -2750,7 +2750,7 @@
         "date": "2026-10-27",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.11852,
+        "epsConsensus": 4.11844,
         "revenueText": "$111.5B"
       },
       "history": [
@@ -2793,7 +2793,7 @@
         "date": "2026-10-30",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 3.55042,
+        "epsConsensus": 3.53076,
         "revenueText": "$97.1B"
       },
       "history": [
@@ -3734,7 +3734,7 @@
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 1.60755,
-        "revenueText": "$734M"
+        "revenueText": "$735M"
       },
       "history": [
         {
@@ -3948,7 +3948,7 @@
         "date": "2026-10-08",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 2.22842,
+        "epsConsensus": 2.21518,
         "revenueText": "$19.0B"
       },
       "history": [
