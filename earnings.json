@@ -2280,9 +2280,9 @@
       "color": "#AD1457",
       "logo": "홈",
       "next": {
-        "date": "2026-08-18",
+        "date": "2026-11-17",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 3.95643,
         "revenueText": "$42.8B"
       },
