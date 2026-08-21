@@ -2163,9 +2163,9 @@
       "color": "#C2185B",
       "logo": "월",
       "next": {
-        "date": "2026-08-20",
+        "date": "2026-11-19",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.68158,
         "revenueText": "$188.3B"
       },
