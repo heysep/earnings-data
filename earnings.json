@@ -2896,7 +2896,7 @@
       "next": {
         "date": "2026-10-28",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": -0.144,
         "revenueText": "$25.0B"
       },
@@ -4996,12 +4996,6 @@
         "revenueText": "6.9조원"
       },
       "history": [
-        {
-          "q": "2026 2Q",
-          "date": "2026-06-30",
-          "actual": -846,
-          "consensus": 6639.46
-        },
         {
           "q": "2025 4Q",
           "date": "2025-12-31",
