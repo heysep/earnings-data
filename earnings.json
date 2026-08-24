@@ -57,7 +57,7 @@
         "date": "2026-10-28",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 4.72092,
+        "epsConsensus": 4.72455,
         "revenueText": "$90.7B"
       },
       "history": [
@@ -2854,8 +2854,8 @@
         "date": "2026-10-30",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 4.64116,
-        "revenueText": "$56.3B"
+        "epsConsensus": 4.62697,
+        "revenueText": "$57.2B"
       },
       "history": [
         {
