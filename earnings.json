@@ -3490,9 +3490,9 @@
       "color": "#D92B3C",
       "logo": "인",
       "next": {
-        "date": "2026-08-25",
+        "date": "2026-11-19",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 3.58739,
         "revenueText": "$4.3B"
       },
