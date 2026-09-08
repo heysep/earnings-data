@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08",
+  "asOf": "2026-09-09",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -359,8 +359,8 @@
         "date": "2026-10-15",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 4.45297,
-        "revenueText": "$1454.5B"
+        "epsConsensus": 4.4614,
+        "revenueText": "$1454.3B"
       },
       "history": [
         {
