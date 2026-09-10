@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-11",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -1128,10 +1128,16 @@
         "date": "2026-09-10",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.73905,
-        "revenueText": "$19.1B"
+        "epsConsensus": 1.8876,
+        "revenueText": "$21.2B"
       },
       "history": [
+        {
+          "q": "2026 3Q",
+          "date": "2026-08-31",
+          "actual": 1.92,
+          "consensus": 1.73834
+        },
         {
           "q": "2026 2Q",
           "date": "2026-05-31",
@@ -1149,12 +1155,6 @@
           "date": "2025-11-30",
           "actual": 2.26,
           "consensus": 1.6372
-        },
-        {
-          "q": "2025 3Q",
-          "date": "2025-08-31",
-          "actual": 1.47,
-          "consensus": 1.47912
         }
       ]
     },
