@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-13",
+  "asOf": "2026-09-14",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -488,8 +488,8 @@
         "date": "2026-10-28",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 14019.815,
-        "revenueText": "206.1조원"
+        "epsConsensus": 13895.542,
+        "revenueText": "204.1조원"
       },
       "history": [
         {
@@ -532,7 +532,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 85537.31,
-        "revenueText": "100.9조원"
+        "revenueText": "100.6조원"
       },
       "history": [
         {
