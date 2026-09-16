@@ -2759,9 +2759,9 @@
       "color": "#6132CE",
       "logo": "유",
       "next": {
-        "date": "2026-10-27",
+        "date": "2026-10-13",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 4.13626,
         "revenueText": "$111.5B"
       },
