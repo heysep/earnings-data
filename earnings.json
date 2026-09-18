@@ -4766,7 +4766,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 11451.272,
-        "revenueText": "8.3조원"
+        "revenueText": "8.4조원"
       },
       "history": [
         {
@@ -5128,7 +5128,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 1063.8561,
-        "revenueText": "7,657억원"
+        "revenueText": "7,655억원"
       },
       "history": [
         {
@@ -5256,7 +5256,7 @@
         "date": "2026-11-05",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 2714.707,
+        "epsConsensus": 2680.8313,
         "revenueText": "3.6조원"
       },
       "history": [
