@@ -360,7 +360,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 4.4614,
-        "revenueText": "$1454.8B"
+        "revenueText": "$1454.9B"
       },
       "history": [
         {
@@ -2676,7 +2676,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 9.87135,
+        "epsConsensus": 9.87488,
         "revenueText": "$22.2B"
       },
       "history": [
