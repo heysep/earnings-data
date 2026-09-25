@@ -229,7 +229,7 @@
         "date": "2026-10-21",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 0.4556,
+        "epsConsensus": 0.45008,
         "revenueText": "$27.5B"
       },
       "history": [
@@ -2200,9 +2200,9 @@
       "color": "#00695C",
       "logo": "코",
       "next": {
-        "date": "2026-09-24",
+        "date": "2026-12-10",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 6.52731,
         "revenueText": "$94.9B"
       },
