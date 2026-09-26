@@ -1687,7 +1687,7 @@
         "date": "2026-10-13",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 5.91435,
+        "epsConsensus": 5.91102,
         "revenueText": "$50.8B"
       },
       "history": [
@@ -2203,7 +2203,7 @@
         "date": "2026-12-10",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.90822,
+        "epsConsensus": 4.91425,
         "revenueText": "$74.0B"
       },
       "history": [
@@ -2332,7 +2332,7 @@
         "date": "2026-11-05",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 3.38868,
+        "epsConsensus": 3.3853,
         "revenueText": "$7.3B"
       },
       "history": [
@@ -2590,7 +2590,7 @@
         "date": "2026-11-03",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.75889,
+        "epsConsensus": 0.75885,
         "revenueText": "$15.9B"
       },
       "history": [
@@ -3192,7 +3192,7 @@
         "date": "2026-10-20",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.27719,
+        "epsConsensus": 1.27672,
         "revenueText": "$34.9B"
       },
       "history": [
@@ -3966,7 +3966,7 @@
         "date": "2026-10-09",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.01646,
+        "epsConsensus": 1.99277,
         "revenueText": "$19.0B"
       },
       "history": [
@@ -4477,7 +4477,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 3128.9756,
-        "revenueText": "27.8조원"
+        "revenueText": "27.7조원"
       },
       "history": [
         {
@@ -5128,7 +5128,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 1063.8561,
-        "revenueText": "7,655억원"
+        "revenueText": "7,618억원"
       },
       "history": [
         {
@@ -5343,7 +5343,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 3528.501,
-        "revenueText": "24.2조원"
+        "revenueText": "24.3조원"
       },
       "history": [
         {
