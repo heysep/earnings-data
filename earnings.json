@@ -4049,9 +4049,9 @@
       "color": "#283593",
       "logo": "S",
       "next": {
-        "date": "2026-10-29",
+        "date": "2026-10-27",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 4.4236,
         "revenueText": "$3.6B"
       },
