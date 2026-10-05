@@ -1426,9 +1426,9 @@
       "color": "#AD1457",
       "logo": "우",
       "next": {
-        "date": "2026-11-03",
+        "date": "2026-11-04",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 0.90987,
         "revenueText": "$14.7B"
       },
