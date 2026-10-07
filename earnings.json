@@ -11,7 +11,7 @@
       "color": "#111111",
       "logo": "A",
       "next": {
-        "date": "2026-10-29",
+        "date": "2026-11-02",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 1.97865,
@@ -4516,7 +4516,7 @@
       "color": "#00867C",
       "logo": "S",
       "next": {
-        "date": "2026-10-29",
+        "date": "2026-11-04",
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 2132.255,
