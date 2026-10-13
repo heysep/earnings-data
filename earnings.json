@@ -140,9 +140,9 @@
       "color": "#0668E1",
       "logo": "M",
       "next": {
-        "date": "2026-10-28",
+        "date": "2026-10-21",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 6.25307,
         "revenueText": "$63.4B"
       },
@@ -1342,7 +1342,7 @@
       "next": {
         "date": "2026-11-02",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 0.41306,
         "revenueText": "$2.2B"
       },
@@ -3060,9 +3060,9 @@
       "color": "#00695C",
       "logo": "디",
       "next": {
-        "date": "2026-11-12",
+        "date": "2026-11-17",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 1.68983,
         "revenueText": "$25.2B"
       },
