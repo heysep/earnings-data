@@ -661,7 +661,7 @@
         "date": "2026-10-29",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 8707.695,
+        "epsConsensus": 7041.43,
         "revenueText": "46.6조원"
       },
       "history": [
@@ -3662,9 +3662,9 @@
       "color": "#0B72B8",
       "logo": "클",
       "next": {
-        "date": "2026-10-29",
+        "date": "2026-11-05",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 0.34308,
         "revenueText": "$738M"
       },
@@ -5085,7 +5085,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 3728.2698,
-        "revenueText": "6,816억원"
+        "revenueText": "6,824억원"
       },
       "history": [
         {
