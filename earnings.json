@@ -272,7 +272,7 @@
       "next": {
         "date": "2026-10-29",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 1.95599,
         "revenueText": "$202.1B"
       },
