@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -2759,7 +2759,7 @@
       "color": "#6132CE",
       "logo": "유",
       "next": {
-        "date": "2026-10-13",
+        "date": "2027-01-12",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 2.26045,
@@ -4178,9 +4178,9 @@
       "color": "#5D4037",
       "logo": "삼",
       "next": {
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "session": "bmo",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 2102.024,
         "revenueText": "4.0조원"
       },
