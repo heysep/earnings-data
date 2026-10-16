@@ -356,9 +356,9 @@
       "color": "#A31F34",
       "logo": "T",
       "next": {
-        "date": "2026-10-15",
+        "date": "2027-01-14",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 5.1641,
         "revenueText": "$1701.5B"
       },
@@ -662,7 +662,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 7041.21,
-        "revenueText": "46.5조원"
+        "revenueText": "46.1조원"
       },
       "history": [
         {
@@ -5128,7 +5128,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 1063.8561,
-        "revenueText": "7,534억원"
+        "revenueText": "7,511억원"
       },
       "history": [
         {
@@ -5527,7 +5527,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 1430.35,
-        "revenueText": "2,902억원"
+        "revenueText": "2,883억원"
       },
       "history": [
         {
