@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-20",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -1770,7 +1770,7 @@
       "color": "#D92B3C",
       "logo": "골",
       "next": {
-        "date": "2026-10-13",
+        "date": "2027-01-19",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 15.50432,
@@ -5376,7 +5376,7 @@
       "color": "#AD1457",
       "logo": "한",
       "next": {
-        "date": "2026-10-19",
+        "date": "2026-10-20",
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 889.24744,
