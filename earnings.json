@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -14,8 +14,8 @@
         "date": "2026-11-02",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.97842,
-        "revenueText": "$113.6B"
+        "epsConsensus": 1.97817,
+        "revenueText": "$113.4B"
       },
       "history": [
         {
@@ -57,7 +57,7 @@
         "date": "2026-10-28",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.71837,
+        "epsConsensus": 4.71606,
         "revenueText": "$90.7B"
       },
       "history": [
@@ -100,8 +100,8 @@
         "date": "2026-10-28",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 3.00446,
-        "revenueText": "$127.8B"
+        "epsConsensus": 2.99814,
+        "revenueText": "$127.9B"
       },
       "history": [
         {
@@ -143,7 +143,7 @@
         "date": "2026-10-21",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 5.56523,
+        "epsConsensus": 5.5366,
         "revenueText": "$63.4B"
       },
       "history": [
@@ -273,7 +273,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.9551,
+        "epsConsensus": 1.95732,
         "revenueText": "$202.2B"
       },
       "history": [
@@ -1515,7 +1515,7 @@
         "date": "2026-11-03",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.45949,
+        "epsConsensus": 0.45955,
         "revenueText": "$3.7B"
       },
       "history": [
@@ -1558,7 +1558,7 @@
         "date": "2026-10-27",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.30853,
+        "epsConsensus": 1.3088,
         "revenueText": "$8.7B"
       },
       "history": [
@@ -1644,7 +1644,7 @@
         "date": "2026-10-27",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.54544,
+        "epsConsensus": 0.55024,
         "revenueText": "$1.4B"
       },
       "history": [
@@ -1687,7 +1687,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 5.92149,
+        "epsConsensus": 5.90316,
         "revenueText": "$51.1B"
       },
       "history": [
@@ -1730,7 +1730,7 @@
         "date": "2027-01-15",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.11816,
+        "epsConsensus": 1.10874,
         "revenueText": "$30.5B"
       },
       "history": [
@@ -1773,7 +1773,7 @@
         "date": "2027-01-19",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 15.50432,
+        "epsConsensus": 15.64988,
         "revenueText": "$17.6B"
       },
       "history": [
@@ -1816,7 +1816,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 2.92677,
+        "epsConsensus": 2.92226,
         "revenueText": "$20.3B"
       },
       "history": [
@@ -1859,7 +1859,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.28456,
+        "epsConsensus": 2.28581,
         "revenueText": "$22.9B"
       },
       "history": [
@@ -1902,7 +1902,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.86493,
+        "epsConsensus": 1.86705,
         "revenueText": "$22.4B"
       },
       "history": [
@@ -1945,7 +1945,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 15.47514,
+        "epsConsensus": 15.47474,
         "revenueText": "$7.9B"
       },
       "history": [
@@ -2031,8 +2031,8 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 5.16336,
-        "revenueText": "$9.6B"
+        "epsConsensus": 5.16401,
+        "revenueText": "$9.7B"
       },
       "history": [
         {
@@ -2074,7 +2074,7 @@
         "date": "2026-10-23",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.50633,
+        "epsConsensus": 4.50014,
         "revenueText": "$20.1B"
       },
       "history": [
@@ -2082,7 +2082,7 @@
           "q": "2026 2Q",
           "date": "2026-06-30",
           "actual": 4.53,
-          "consensus": 4.40307
+          "consensus": 4.40494
         },
         {
           "q": "2026 1Q",
@@ -2375,7 +2375,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.70117,
+        "epsConsensus": 0.70466,
         "revenueText": "$9.2B"
       },
       "history": [
@@ -2719,7 +2719,7 @@
         "date": "2026-10-30",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 3.78674,
+        "epsConsensus": 3.78598,
         "revenueText": "$17.4B"
       },
       "history": [
@@ -2762,8 +2762,8 @@
         "date": "2027-01-12",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.26045,
-        "revenueText": "$112.2B"
+        "epsConsensus": 2.26383,
+        "revenueText": "$112.3B"
       },
       "history": [
         {
@@ -2805,8 +2805,8 @@
         "date": "2026-10-30",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.0031,
-        "revenueText": "$104.6B"
+        "epsConsensus": 4.01695,
+        "revenueText": "$104.7B"
       },
       "history": [
         {
@@ -2977,10 +2977,16 @@
         "date": "2026-10-20",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.00805,
-        "revenueText": "$12.9B"
+        "epsConsensus": 2.11,
+        "revenueText": "$13.3B"
       },
       "history": [
+        {
+          "q": "2026 3Q",
+          "date": "2026-09-30",
+          "actual": 2.25,
+          "consensus": 2.01994
+        },
         {
           "q": "2026 2Q",
           "date": "2026-06-30",
@@ -2998,12 +3004,6 @@
           "date": "2025-12-31",
           "actual": 1.57,
           "consensus": 1.42976
-        },
-        {
-          "q": "2025 3Q",
-          "date": "2025-09-30",
-          "actual": 1.66,
-          "consensus": 1.46885
         }
       ]
     },
@@ -3536,7 +3536,7 @@
         "date": "2026-10-28",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.02284,
+        "epsConsensus": 1.0231,
         "revenueText": "$4.1B"
       },
       "history": [
@@ -3923,10 +3923,16 @@
         "date": "2026-10-20",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 3.63141,
-        "revenueText": "$48.8B"
+        "epsConsensus": 2.80893,
+        "revenueText": "$45.5B"
       },
       "history": [
+        {
+          "q": "2026 3Q",
+          "date": "2026-09-30",
+          "actual": 3.7,
+          "consensus": 3.63141
+        },
         {
           "q": "2026 2Q",
           "date": "2026-06-30",
@@ -3944,12 +3950,6 @@
           "date": "2025-12-31",
           "actual": 2.51,
           "consensus": 2.26844
-        },
-        {
-          "q": "2025 3Q",
-          "date": "2025-09-30",
-          "actual": 2.8,
-          "consensus": 2.32278
         }
       ]
     },
@@ -4224,8 +4224,8 @@
         "date": "2026-10-29",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 4871.274,
-        "revenueText": "4.9조원"
+        "epsConsensus": 4882.2866,
+        "revenueText": "4.8조원"
       },
       "history": [
         {
@@ -4267,7 +4267,7 @@
         "date": "2026-10-27",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 3207.2073,
+        "epsConsensus": 3263.0156,
         "revenueText": "4.2조원"
       },
       "history": [
@@ -4353,7 +4353,7 @@
         "date": "2026-10-30",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 1293.0319,
+        "epsConsensus": 1307.044,
         "revenueText": "3.0조원"
       },
       "history": [
@@ -4477,7 +4477,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 3128.9756,
-        "revenueText": "27.7조원"
+        "revenueText": "27.6조원"
       },
       "history": [
         {
@@ -4895,7 +4895,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 2407.272,
-        "revenueText": "1.9조원"
+        "revenueText": "1.8조원"
       },
       "history": [
         {
@@ -5370,7 +5370,7 @@
       "color": "#AD1457",
       "logo": "한",
       "next": {
-        "date": "2026-10-20",
+        "date": "2026-10-22",
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 889.24744,
@@ -5520,8 +5520,8 @@
         "date": "2026-11-04",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 1430.35,
-        "revenueText": "2,905억원"
+        "epsConsensus": 4796,
+        "revenueText": "2,912억원"
       },
       "history": [
         {
