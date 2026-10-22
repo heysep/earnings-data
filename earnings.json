@@ -4086,9 +4086,9 @@
       "color": "#00838F",
       "logo": "삼",
       "next": {
-        "date": "2026-10-21",
+        "date": "2027-01-20",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 10492.863,
         "revenueText": "1.6조원"
       },
