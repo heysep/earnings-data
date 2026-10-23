@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-24",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -660,7 +660,7 @@
       "next": {
         "date": "2026-10-29",
         "session": "bmo",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 7150.9297,
         "revenueText": "46.1조원"
       },
@@ -4304,10 +4304,16 @@
         "date": "2026-10-23",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 4398.239,
-        "revenueText": "3.2조원"
+        "epsConsensus": 2710.6455,
+        "revenueText": "2.9조원"
       },
       "history": [
+        {
+          "q": "2026 3Q",
+          "date": "2026-09-30",
+          "actual": 4421,
+          "consensus": 4398.239
+        },
         {
           "q": "2026 2Q",
           "date": "2026-06-30",
@@ -4325,12 +4331,6 @@
           "date": "2025-12-31",
           "actual": 1982,
           "consensus": 1986.3353
-        },
-        {
-          "q": "2025 3Q",
-          "date": "2025-09-30",
-          "actual": 4000,
-          "consensus": 3875.5908
         }
       ]
     },
@@ -5364,7 +5364,7 @@
       "color": "#AD1457",
       "logo": "한",
       "next": {
-        "date": "2026-10-23",
+        "date": "2026-10-26",
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 889.24744,
