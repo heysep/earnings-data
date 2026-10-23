@@ -4756,9 +4756,9 @@
       "color": "#4527A0",
       "logo": "H",
       "next": {
-        "date": "2026-11-02",
+        "date": "2026-10-28",
         "session": "bmo",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 11503.606,
         "revenueText": "8.3조원"
       },
@@ -5155,7 +5155,7 @@
       "color": "#6132CE",
       "logo": "크",
       "next": {
-        "date": "2026-11-03",
+        "date": "2026-11-10",
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 5503.794,
