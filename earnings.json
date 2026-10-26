@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -57,8 +57,8 @@
         "date": "2026-10-28",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.71992,
-        "revenueText": "$90.8B"
+        "epsConsensus": 4.72072,
+        "revenueText": "$90.7B"
       },
       "history": [
         {
@@ -229,7 +229,7 @@
         "date": "2026-10-21",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.49431,
+        "epsConsensus": 0.50329,
         "revenueText": "$29.3B"
       },
       "history": [
@@ -1988,7 +1988,7 @@
         "date": "2026-10-27",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 3.44101,
+        "epsConsensus": 3.44068,
         "revenueText": "$12.1B"
       },
       "history": [
@@ -2074,7 +2074,7 @@
         "date": "2026-10-23",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 4.28736,
+        "epsConsensus": 4.29838,
         "revenueText": "$20.8B"
       },
       "history": [
@@ -2676,7 +2676,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 6.66843,
+        "epsConsensus": 6.60588,
         "revenueText": "$22.6B"
       },
       "history": [
@@ -5278,9 +5278,9 @@
       "color": "#C2185B",
       "logo": "삼",
       "next": {
-        "date": "2026-10-29",
+        "date": "2026-10-28",
         "session": "bmo",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 6262.0815,
         "revenueText": "3.8조원"
       },
@@ -5358,7 +5358,7 @@
       "color": "#AD1457",
       "logo": "한",
       "next": {
-        "date": "2026-10-26",
+        "date": "2026-10-27",
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 889.24744,
