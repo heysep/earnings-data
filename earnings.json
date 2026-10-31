@@ -101,7 +101,7 @@
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 3.21432,
-        "revenueText": "$142.3B"
+        "revenueText": "$142.4B"
       },
       "history": [
         {
@@ -273,8 +273,8 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.44273,
-        "revenueText": "$244.3B"
+        "epsConsensus": 2.42065,
+        "revenueText": "$244.6B"
       },
       "history": [
         {
@@ -488,8 +488,8 @@
         "date": "2027-01-27",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 16183.055,
-        "revenueText": "229.9조원"
+        "epsConsensus": 16478.95,
+        "revenueText": "225.7조원"
       },
       "history": [
         {
@@ -656,7 +656,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 7092.067,
-        "revenueText": "49.5조원"
+        "revenueText": "49.0조원"
       },
       "history": [
         {
@@ -692,7 +692,7 @@
         "date": "2027-01-27",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 4482.811,
+        "epsConsensus": 4240.46,
         "revenueText": "31.2조원"
       },
       "history": [
@@ -1583,7 +1583,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.19612,
+        "epsConsensus": -0.15388,
         "revenueText": "$1.3B"
       },
       "history": [
@@ -1798,7 +1798,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 2.93611,
+        "epsConsensus": 2.93744,
         "revenueText": "$20.3B"
       },
       "history": [
@@ -2013,7 +2013,7 @@
         "date": "2027-01-28",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 5.12601,
+        "epsConsensus": 5.12308,
         "revenueText": "$9.9B"
       },
       "history": [
@@ -2021,7 +2021,7 @@
           "q": "2026 3Q",
           "date": "2026-09-30",
           "actual": 5.31,
-          "consensus": 5.16433
+          "consensus": 5.17079
         },
         {
           "q": "2026 2Q",
@@ -2787,15 +2787,15 @@
         "date": "2027-01-29",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 3.88846,
-        "revenueText": "$113.2B"
+        "epsConsensus": 3.87524,
+        "revenueText": "$81.2B"
       },
       "history": [
         {
           "q": "2026 3Q",
           "date": "2026-09-30",
           "actual": 4.23,
-          "consensus": 4.03569
+          "consensus": 4.03212
         },
         {
           "q": "2026 2Q",
@@ -3045,7 +3045,7 @@
         "date": "2026-11-17",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.69145,
+        "epsConsensus": 1.69143,
         "revenueText": "$25.2B"
       },
       "history": [
@@ -3518,7 +3518,7 @@
         "date": "2027-01-27",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 1.07165,
+        "epsConsensus": 1.06841,
         "revenueText": "$4.4B"
       },
       "history": [
@@ -4686,8 +4686,8 @@
         "date": "2027-01-27",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 11833.273,
-        "revenueText": "16.7조원"
+        "epsConsensus": 14618.792,
+        "revenueText": "16.4조원"
       },
       "history": [
         {
@@ -4889,7 +4889,7 @@
         "date": "2026-10-29",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 1559.6295,
+        "epsConsensus": 1742.9907,
         "revenueText": "1.3조원"
       },
       "history": [
@@ -5013,7 +5013,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 3728.2698,
-        "revenueText": "6,892억원"
+        "revenueText": "6,888억원"
       },
       "history": [
         {
@@ -5295,7 +5295,7 @@
         "date": "2026-10-30",
         "session": "bmo",
         "confirmed": true,
-        "epsConsensus": 895.98096,
+        "epsConsensus": 979.5494,
         "revenueText": "2,311억원"
       },
       "history": [
@@ -5437,7 +5437,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 4796,
-        "revenueText": "2,869억원"
+        "revenueText": "2,863억원"
       },
       "history": [
         {
