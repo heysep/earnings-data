@@ -938,8 +938,8 @@
         "date": "2027-01-28",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 0.2431,
-        "revenueText": "$16.5B"
+        "epsConsensus": 0.24795,
+        "revenueText": "$16.3B"
       },
       "history": [
         {
@@ -1841,7 +1841,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.28581,
+        "epsConsensus": 2.27236,
         "revenueText": "$22.9B"
       },
       "history": [
@@ -1884,7 +1884,7 @@
         "date": "2027-01-14",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.86599,
+        "epsConsensus": 1.86544,
         "revenueText": "$22.4B"
       },
       "history": [
@@ -2357,7 +2357,7 @@
         "date": "2027-01-27",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 0.75102,
+        "epsConsensus": 0.75032,
         "revenueText": "$9.4B"
       },
       "history": [
@@ -2615,8 +2615,8 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.83318,
-        "revenueText": "$16.5B"
+        "epsConsensus": 1.81064,
+        "revenueText": "$16.4B"
       },
       "history": [
         {
@@ -2701,7 +2701,7 @@
         "date": "2026-10-30",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 3.88632,
+        "epsConsensus": 3.89549,
         "revenueText": "$18.4B"
       },
       "history": [
@@ -2917,7 +2917,7 @@
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 6.52877,
-        "revenueText": "$20.8B"
+        "revenueText": "$20.9B"
       },
       "history": [
         {
@@ -3819,7 +3819,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": -0.6528,
+        "epsConsensus": -0.64839,
         "revenueText": "$2.5B"
       },
       "history": [
@@ -3863,7 +3863,7 @@
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 0.34602,
-        "revenueText": "$46.1B"
+        "revenueText": "$45.1B"
       },
       "history": [
         {
