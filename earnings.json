@@ -57,8 +57,8 @@
         "date": "2027-01-27",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 4.86024,
-        "revenueText": "$96.6B"
+        "epsConsensus": 4.85843,
+        "revenueText": "$96.7B"
       },
       "history": [
         {
@@ -938,8 +938,8 @@
         "date": "2027-01-28",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 0.24795,
-        "revenueText": "$16.3B"
+        "epsConsensus": 0.24939,
+        "revenueText": "$15.7B"
       },
       "history": [
         {
@@ -1970,7 +1970,7 @@
         "date": "2027-01-26",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 3.62901,
+        "epsConsensus": 3.62897,
         "revenueText": "$12.2B"
       },
       "history": [
@@ -2357,7 +2357,7 @@
         "date": "2027-01-27",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 0.75032,
+        "epsConsensus": 0.7503,
         "revenueText": "$9.4B"
       },
       "history": [
@@ -2615,7 +2615,7 @@
         "date": "2026-10-29",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.81064,
+        "epsConsensus": 1.79534,
         "revenueText": "$16.4B"
       },
       "history": [
@@ -2830,8 +2830,8 @@
         "date": "2027-01-29",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 5.47719,
-        "revenueText": "$63.4B"
+        "epsConsensus": 5.995,
+        "revenueText": "$64.4B"
       },
       "history": [
         {
@@ -2873,8 +2873,8 @@
         "date": "2027-01-26",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": -0.72724,
-        "revenueText": "$25.7B"
+        "epsConsensus": -0.73741,
+        "revenueText": "$25.6B"
       },
       "history": [
         {
@@ -2916,8 +2916,8 @@
         "date": "2027-01-28",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 6.52877,
-        "revenueText": "$20.9B"
+        "epsConsensus": 6.52041,
+        "revenueText": "$20.8B"
       },
       "history": [
         {
