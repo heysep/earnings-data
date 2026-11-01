@@ -140,9 +140,9 @@
       "color": "#0668E1",
       "logo": "M",
       "next": {
-        "date": "2026-10-21",
+        "date": "2027-01-27",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 8.33102,
         "revenueText": "$75.2B"
       },
@@ -226,9 +226,9 @@
       "color": "#E31937",
       "logo": "T",
       "next": {
-        "date": "2026-10-21",
+        "date": "2027-01-27",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.50329,
         "revenueText": "$29.3B"
       },
@@ -399,7 +399,7 @@
       "color": "#0F238C",
       "logo": "A",
       "next": {
-        "date": "2026-10-14",
+        "date": "2027-01-27",
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 15.38838,
@@ -1064,9 +1064,9 @@
       "color": "#0B72B8",
       "logo": "텍",
       "next": {
-        "date": "2026-10-21",
+        "date": "2027-01-26",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 2.62037,
         "revenueText": "$6.1B"
       },
@@ -1236,9 +1236,9 @@
       "color": "#7A5C00",
       "logo": "I",
       "next": {
-        "date": "2026-10-21",
+        "date": "2027-01-27",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 4.62779,
         "revenueText": "$20.4B"
       },
@@ -2053,9 +2053,9 @@
       "color": "#2E3FC8",
       "logo": "아",
       "next": {
-        "date": "2026-10-23",
+        "date": "2027-01-29",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 4.29011,
         "revenueText": "$20.8B"
       },
@@ -2526,7 +2526,7 @@
       "color": "#827717",
       "logo": "존",
       "next": {
-        "date": "2026-10-13",
+        "date": "2027-01-26",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 2.91505,
@@ -2743,7 +2743,7 @@
       "next": {
         "date": "2027-01-12",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 2.26306,
         "revenueText": "$112.5B"
       },
@@ -2958,7 +2958,7 @@
       "next": {
         "date": "2027-01-21",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 2.34629,
         "revenueText": "$13.3B"
       },
@@ -2999,9 +2999,9 @@
       "color": "#C2185B",
       "logo": "록",
       "next": {
-        "date": "2026-10-22",
+        "date": "2027-01-26",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 8.20692,
         "revenueText": "$22.7B"
       },
@@ -3085,9 +3085,9 @@
       "color": "#4527A0",
       "logo": "컴",
       "next": {
-        "date": "2026-10-22",
+        "date": "2027-01-28",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.60696,
         "revenueText": "$29.8B"
       },
@@ -3128,9 +3128,9 @@
       "color": "#AD1457",
       "logo": "A",
       "next": {
-        "date": "2026-10-21",
+        "date": "2027-01-27",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.54099,
         "revenueText": "$34.6B"
       },
@@ -3171,9 +3171,9 @@
       "color": "#283593",
       "logo": "버",
       "next": {
-        "date": "2026-10-26",
+        "date": "2027-01-28",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 1.15272,
         "revenueText": "$37.0B"
       },
@@ -3257,9 +3257,9 @@
       "color": "#EF6C00",
       "logo": "룰",
       "next": {
-        "date": "2026-09-03",
+        "date": "2026-12-10",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 1.04137,
         "revenueText": "$2.3B"
       },
@@ -3603,7 +3603,7 @@
       "next": {
         "date": "2026-12-01",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.31146,
         "revenueText": "$1.5B"
       },
@@ -3773,9 +3773,9 @@
       "color": "#2E3FC8",
       "logo": "소",
       "next": {
-        "date": "2026-10-27",
+        "date": "2027-01-29",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.19423,
         "revenueText": "$1.4B"
       },
@@ -3902,7 +3902,7 @@
       "color": "#00695C",
       "logo": "G",
       "next": {
-        "date": "2026-10-20",
+        "date": "2027-01-27",
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 2.53824,
@@ -3945,9 +3945,9 @@
       "color": "#4527A0",
       "logo": "델",
       "next": {
-        "date": "2026-10-09",
+        "date": "2027-01-13",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 1.42363,
         "revenueText": "$19.5B"
       },
