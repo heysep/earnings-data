@@ -4402,7 +4402,7 @@
       "next": {
         "date": "2026-11-12",
         "session": "bmo",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 12843.95,
         "revenueText": "4.2조원"
       },
