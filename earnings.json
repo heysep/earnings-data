@@ -11,9 +11,9 @@
       "color": "#111111",
       "logo": "A",
       "next": {
-        "date": "2026-11-02",
+        "date": "2027-01-28",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 2.91212,
         "revenueText": "$153.1B"
       },
@@ -806,9 +806,9 @@
       "color": "#2AA8E0",
       "logo": "P",
       "next": {
-        "date": "2026-11-02",
+        "date": "2027-01-28",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 5354.135,
         "revenueText": "18.4조원"
       },
@@ -1316,9 +1316,9 @@
       "color": "#00695C",
       "logo": "팔",
       "next": {
-        "date": "2026-11-02",
+        "date": "2027-02-01",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 0.45953,
         "revenueText": "$2.5B"
       },
