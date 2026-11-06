@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -3284,7 +3284,7 @@
       "next": {
         "date": "2026-12-01",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 1.10097,
         "revenueText": "$3.2B"
       },
@@ -4093,9 +4093,9 @@
       "color": "#EF6C00",
       "logo": "L",
       "next": {
-        "date": "2026-11-05",
+        "date": "2027-02-04",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 1818.817,
         "revenueText": "15.5조원"
       },
@@ -4930,9 +4930,9 @@
       "color": "#D92B3C",
       "logo": "K",
       "next": {
-        "date": "2026-11-05",
+        "date": "2027-02-04",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 3005.24,
         "revenueText": "1.9조원"
       },
@@ -5016,9 +5016,9 @@
       "color": "#E06E0A",
       "logo": "넷",
       "next": {
-        "date": "2026-11-05",
+        "date": "2027-02-04",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 1063.8561,
         "revenueText": "7,440억원"
       },
@@ -5287,9 +5287,9 @@
       "color": "#283593",
       "logo": "에",
       "next": {
-        "date": "2026-11-05",
+        "date": "2027-02-04",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": -60.28815,
         "revenueText": "6,381억원"
       },
