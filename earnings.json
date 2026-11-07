@@ -4933,8 +4933,8 @@
         "date": "2027-02-04",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 3005.24,
-        "revenueText": "1.9조원"
+        "epsConsensus": 2906.11,
+        "revenueText": "1.6조원"
       },
       "history": [
         {
@@ -4954,12 +4954,6 @@
           "date": "2025-12-31",
           "actual": 2661,
           "consensus": 3964.4448
-        },
-        {
-          "q": "2025 3Q",
-          "date": "2025-09-30",
-          "actual": 3869,
-          "consensus": 2933.1956
         }
       ]
     },
