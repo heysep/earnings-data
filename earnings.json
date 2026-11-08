@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-09",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -2078,9 +2078,9 @@
       "color": "#7A5C00",
       "logo": "버",
       "next": {
-        "date": "2026-11-07",
+        "date": "2026-11-09",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 5.12358,
         "revenueText": "$104.0B"
       },
