@@ -4499,9 +4499,9 @@
       "color": "#B0323F",
       "logo": "K",
       "next": {
-        "date": "2026-11-10",
+        "date": "2027-02-10",
         "session": "bmo",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 942.53705,
         "revenueText": "6.9조원"
       },
