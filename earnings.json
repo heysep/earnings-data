@@ -186,10 +186,16 @@
         "date": "2026-11-17",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.47313,
-        "revenueText": "$108.7B"
+        "epsConsensus": 2.7613,
+        "revenueText": "$124.9B"
       },
       "history": [
+        {
+          "q": "2026 4Q",
+          "date": "2026-10-31",
+          "actual": 2.68,
+          "consensus": 2.47313
+        },
         {
           "q": "2026 3Q",
           "date": "2026-07-31",
@@ -207,12 +213,6 @@
           "date": "2026-01-31",
           "actual": 1.62,
           "consensus": 1.53812
-        },
-        {
-          "q": "2025 4Q",
-          "date": "2025-10-31",
-          "actual": 1.3,
-          "consensus": 1.25647
         }
       ]
     },
