@@ -272,7 +272,7 @@
       "next": {
         "date": "2027-02-04",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": 2.39514,
         "revenueText": "$245.0B"
       },
@@ -784,7 +784,7 @@
         "date": "2027-02-04",
         "session": "bmo",
         "confirmed": false,
-        "epsConsensus": 2075.5593,
+        "epsConsensus": 2133.358,
         "revenueText": "1.7조원"
       },
       "history": [
@@ -2890,7 +2890,7 @@
       "next": {
         "date": "2027-01-26",
         "session": "amc",
-        "confirmed": false,
+        "confirmed": true,
         "epsConsensus": -0.75132,
         "revenueText": "$25.6B"
       },
@@ -3447,9 +3447,9 @@
       "color": "#1F5FDB",
       "logo": "델",
       "next": {
-        "date": "2026-11-24",
+        "date": "2027-02-25",
         "session": "amc",
-        "confirmed": true,
+        "confirmed": false,
         "epsConsensus": 7.51097,
         "revenueText": "$53.6B"
       },
@@ -5165,7 +5165,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 5353.435,
-        "revenueText": "9,590억원"
+        "revenueText": "9,538억원"
       },
       "history": [
         {
