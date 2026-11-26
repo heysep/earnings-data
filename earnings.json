@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -2031,7 +2031,7 @@
         "date": "2027-01-28",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 5.12096,
+        "epsConsensus": 5.1193,
         "revenueText": "$9.9B"
       },
       "history": [
@@ -2161,7 +2161,7 @@
         "session": "amc",
         "confirmed": true,
         "epsConsensus": 0.77534,
-        "revenueText": "$200.2B"
+        "revenueText": "$200.3B"
       },
       "history": [
         {
@@ -3063,7 +3063,7 @@
         "date": "2027-02-01",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 2.07433,
+        "epsConsensus": 2.05957,
         "revenueText": "$27.9B"
       },
       "history": [
@@ -3450,8 +3450,8 @@
         "date": "2027-02-25",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 8.52486,
-        "revenueText": "$56.5B"
+        "epsConsensus": 8.58238,
+        "revenueText": "$56.8B"
       },
       "history": [
         {
@@ -3622,7 +3622,7 @@
         "date": "2026-11-23",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 0.36078,
+        "epsConsensus": 0.36071,
         "revenueText": "$1.6B"
       },
       "history": [
@@ -3751,7 +3751,7 @@
         "date": "2026-12-01",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.60718,
+        "epsConsensus": 1.60904,
         "revenueText": "$762M"
       },
       "history": [
@@ -4182,7 +4182,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 2258.0012,
-        "revenueText": "4.5조원"
+        "revenueText": "4.6조원"
       },
       "history": [
         {
@@ -4649,7 +4649,7 @@
         "session": "bmo",
         "confirmed": false,
         "epsConsensus": 51141.86,
-        "revenueText": "37.8조원"
+        "revenueText": "39.2조원"
       },
       "history": [
         {
@@ -5214,7 +5214,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 196.90211,
-        "revenueText": "3,030억원"
+        "revenueText": "3,011억원"
       },
       "history": [
         {
