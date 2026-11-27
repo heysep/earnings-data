@@ -2504,7 +2504,7 @@
         "date": "2027-01-22",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 1.81098,
+        "epsConsensus": 1.81108,
         "revenueText": "$22.9B"
       },
       "history": [
@@ -3923,8 +3923,8 @@
         "date": "2027-01-27",
         "session": "amc",
         "confirmed": true,
-        "epsConsensus": 2.49398,
-        "revenueText": "$44.9B"
+        "epsConsensus": 2.49768,
+        "revenueText": "$45.0B"
       },
       "history": [
         {
@@ -5085,7 +5085,7 @@
         "session": "bmo",
         "confirmed": true,
         "epsConsensus": 6052.385,
-        "revenueText": "7,692억원"
+        "revenueText": "7,694억원"
       },
       "history": [
         {
