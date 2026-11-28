@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-28",
+  "asOf": "2026-11-29",
   "stocks": [
     {
       "symbol": "AAPL",
@@ -2848,7 +2848,7 @@
         "date": "2027-01-29",
         "session": "amc",
         "confirmed": false,
-        "epsConsensus": 5.65396,
+        "epsConsensus": 5.59385,
         "revenueText": "$66.2B"
       },
       "history": [
